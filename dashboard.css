@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,900;1,700&family=Red+Hat+Display&display=swap');
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+html{
+    width: 100%;
+    font-size: 10px;
+}
+html, body{
+    padding: 0;
+    margin: 0;
+    min-height: 100vh;
+    max-width: 100vw;
+    height: 100vh;
+    
+    
+   } 
+
+body{
+    width: 100%;
+    font-family: 'Red Hat Display', sans-serif;
+    background-color: #f8f8ff;
+}
+.home-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1rem;
+    background-color: white;
+    max-height: 5rem;
+    flex-direction: row;
+}
+.logo{
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem; 
+    display: flex;
+    flex-direction: row;
+}
+.logo ul{
+    color: black;
+    font-size: 15px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 900;
+    font-style: bolder;
+}
+.logo span{
+    color: #dd5353;
+}
+.right{
+    align-items: center;
+    align-content: space-between;
+    justify-content: space-between;
+    display: flex; 
+    padding-inline: 5rem;
+    flex-direction: row;
+}
+.right a{
+    text-decoration: none;
+}
+.right img{
+    margin-right: 1rem;
+}
+.right i{
+    margin-right: 1rem;
+}
+.side-nav{
+    height: 100%;
+    width: 20%;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    float: left;
+}
+.side-nav{
+   border: 1px solid gainsboro;
+   width: 220px;
+    border-radius: 5px;
+    border-top: hidden;
+    padding-left: 2rem;
+    background-color: #ffff;  
+}
+.side-nav div{
+    width: 20rem;
+}
+
+.btnn , .btn{
+    border: 1px solid #f8f8ff;
+    border-radius:5px;
+    cursor:pointer;
+    overflow: hidden;
+    width: inherit;
+    margin-bottom: 0.5rem; 
+    color: black; 
+    background-color: #ffff;
+    padding: 8px 8px;
+    font-family: 'Red Hat Display' sans-serif;
+    font-weight: 600;   
+}
+.btn i , .btnn i{
+  font-size: 20px;
+  display: block;
+  background: none;
+  text-align: start;
+  font-family: 'Red Hat Display' sans-serif;
+  height: 10px; 
+
+}
+.fa-refresh{
+    float: left;  
+}
+.fa-angle-down{
+    float: right;
+}
+.dropdown-container{
+    width: inherit;
+}
+.dropdown-container a{
+         font-size: 13px;
+        color: #818181;
+        display: block;
+        background: none;
+        text-align: start;
+        outline: none;
+        font-family: 'Red Hat Display' sans-serif;
+        height: 10px;
+        text-decoration: none;
+}
+.main-section{
+    width: 55%;
+    height: 100%;
+    float: left;
+    display: block; 
+    padding-left: 2rem; 
+}
+.main-section h1{
+    font-weight: 600;
+    font-family: 'Red Hat Display';
+    line-height: 2.3rem;
+    text-align: left;     
+}
+.features{
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+    display: block;
+    padding-left: 2rem;
+    background-color: #ffff;   
+}
+.flex-features{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;   
+}
+.flex-features div{
+        justify-content: space-between;
+        border: 2px solid #f8f8ff;
+        border-radius:10px;
+        text-align: center;
+        flex-basis: 22%;
+        margin-right: 1rem;
+        margin-bottom: 2em;
+    }
+.flex-features div:hover{
+        -ms-transform: scale(1.1);
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+.flex-features h3{
+        text-align: center;
+}
+.spend{
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+    display: block;
+    background-color: #ffff;
+    padding-left: 2rem;
+    margin-top: 2rem;  
+}
+.spend h2{
+    font-weight: 600;
+    font-family: 'Red Hat Display';
+    line-height: 2.3rem;    
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+.naira{
+    float: left;
+    font-size: 18px;
+    font-weight: 600;
+    flex-wrap: wrap;
+}
+.monthh{
+    float: right;
+    margin-right: 2rem;
+}
+.month{
+    border: 1px solid gainsboro;
+    border-radius:5px;
+   padding: 6px;
+    width: 20rem;
+    text-align: center;
+    background-color: #f8f8ff;
+}
+.fa-caret-down{
+    float: right;
+}
+.second-features{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: space-between; 
+}
+.second-features div{
+    justify-content: center;
+    border: 2px solid gainsboro;
+    border-radius: 5px;
+    text-align: left;
+    align-content: center;
+    flex-basis: 22%;
+    margin-bottom: 2rem;
+    margin-right: 1rem;
+}
+.second-features div:hover{
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.second-features i{
+    padding-right: 0.2rem;   
+}
+.second-features p{
+    margin-left: 1rem;
+    font-weight: 600; 
+}
+.right-accont{
+    float: right;
+    width: 25%;
+    display: block;
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+    display: block;
+    padding-left: 2rem;
+    background-color: #ffff;
+    margin-right: 3rem;
+    margin-top: 5rem;
+    padding-top: 2rem;
+    height: 80%;
+}
+.right-accont h2{
+font-family: 'Red Hat Display';
+word-spacing: 0.2em;
+}
+
+.img-container{
+    position: relative;
+    text-align: center;
+    color: black;
+}
+.text{
+    position:absolute;
+     padding-left: 5rem;
+    display: table;
+    color:#fff;
+    top:1px;
+    left:16px;
+    text-align: left;
+    margin-left: 2rem;
+    
+  }
+  .img-container img{
+      border: 1px solid;
+      border-radius: 10px;
+  }
+  .fa-chevron-circle-left{
+        z-index: 0;
+        position: absolute;
+       top: 30%;
+        width: auto; 
+        margin-left: 3rem;  
+  }
+  .fa-chevron-circle-right{
+        z-index: 0;
+       right: 0%;
+        position: absolute;
+        top: 30%;
+        width: auto;
+        margin-right: 6rem;         
+  }
+  .hide{
+      text-align: center;
+      padding-top: 2rem; 
+      
+  }
+  .hide p{
+      font-size: 12px;
+      font-weight: 600;
+  }
+  .transact{
+      border: 1px solid gainsboro;
+      background-color: #f8f8ff;
+      border-radius: 5px;
+      margin-right: 2rem;
+      margin-top: 4rem;
+  }

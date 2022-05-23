@@ -1,0 +1,235 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,900;1,700&family=Red+Hat+Display&display=swap');
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+html{
+    width: 100%;
+    font-size: 10px;
+}
+html, body{
+    padding: 0;
+    margin: 0;
+    min-height: 100vh;
+    max-width: 100vw;
+    height: 100vh;
+   } 
+
+body{
+    width: 100%;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.colomn{
+height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow: hidden;
+  padding-top: 20px;
+}
+.colomn{
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+    .logo{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        padding-top: 40px;
+    }
+    
+    .logo img{
+        align-content: center;
+        justify-content: center;
+    }
+    .logo h1{
+        text-align: center;
+    }
+    .logo span{
+        color: #db5353;
+    }
+    .buttons{
+        display: flex;
+        align-content: space-between;
+        flex-direction: row;
+        padding-top: 3rem;
+        justify-content: space-between;
+    }
+    .personal{
+        width: 20rem;
+        padding: 15px;
+        margin-right: 2rem;
+        border-radius: 2px;
+        background-color: black;
+        color: white;
+        border-style: hidden;
+        border-color: black;
+        font-family: 'Red Hat Display', sans-serif;
+    
+    }
+    .business{
+        width: 20rem;
+        padding: 15px;
+        margin-left: 2rem;
+        font-family: 'Red Hat Display', sans-serif;
+        border-radius: 2px;
+        background-color: lightgrey;
+        color: black;
+        border-style: hidden;
+        border-color: lightgrey;
+    }
+    .form-wrapper{
+        background-color: white;
+        width: 48rem;
+        height: 30rem;
+        border-radius: 2px;
+        padding: 15px;
+        padding-top: 3rem;
+     }
+    form{
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 3rem;
+        }
+        input{
+            width: 100%;
+            border-radius: 2px;
+            border: 1px solid #cccc;
+            height: 4rem;
+            margin-bottom: 3rem;
+            padding: 15px ;  
+        }
+        
+#submit{
+    background-color: #db5353;
+    padding: 15px;
+    border-style: hidden;
+    border-color: #db5353;
+    border-radius: 2px;
+    color: white;
+    font-family: 'Red Hat Display', sans-serif;
+}
+#submit a{
+    text-decoration: none;
+    color: #fff;
+}
+.account{
+    font-family: 'Red Hat Display', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+    text-align: center;     
+}
+.account p{
+   color: black;
+   font-weight: 500;
+   font-size: 15px;
+   display: block;
+}
+
+.account a{
+   color: blue;
+   font-weight: 500;
+   font-size: 15px;
+}
+.slideshow-container{
+    display: flex;
+    flex-direction: row;
+}
+.mySlidesfade{
+display: flex;
+flex-direction: row;
+align-items: right;
+}
+.slider-frame{
+    overflow: hidden;
+    height: 100%;
+    width: 50%;
+    margin-left: 0px;
+    margin-top: 0px;
+    position: fixed;
+}
+.text{
+   position:absolute;
+    display: table;
+    overflow: hidden;
+   color:#fff;
+   top:0;
+   left:0;
+   margin-left: 5rem;
+   padding-top: 5rem;
+ }
+ .text h1{
+     font-size: 30px;
+     text-align: center;
+     font-family: 'Red Hat Display', sans-serif;
+     font-style: bolder;
+     font-weight: 800;
+     margin-bottom: 12rem;
+     line-height: 2.4rem; 
+ }
+ .text h2{
+     font-size: 25px;
+     text-align: center;
+     font-family: 'Red Hat Display', sans-serif;
+     font-style: bolder;
+     font-weight: 800;
+     line-height: 2.4rem; 
+     margin-bottom: 2rem;
+ }
+ .text p{
+     font-size: 15px;
+     text-align: center;
+     font-family: 'Red Hat Display', sans-serif;
+     font-style: bolder;
+     font-weight: 800;
+     line-height: 3.2rem; 
+ }
+
+/*-----------SLIDE ANIMATION----------*/
+@keyframes slide_animation{
+    0% {left: 0px;}
+    10% {left: 0px;}
+    20% {left: 1200px;}
+    30% {left: 1200px;}
+    40% {left: 2400px;}
+    50% {left: 2400px;}
+    60% {left: 1200px;}
+    70% {left: 1200px;}
+    80% {left: 0px;}
+    90% {left: 0px;}
+    100% {left: 0px;}
+}
+
+.slide-images{
+    width: 3600px;
+    height: 800px;
+    margin: 0 0 0 -2400px;
+    position: relative;
+    animation-name: slide_animation;
+    animation-duration: 13s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-play-state: running;
+}
+
+.img-container{
+    height: 800px;
+    width: 1200px;
+    position: relative;
+    float: left;
+    
+}
+
+/*--------END OF ANIMATION------*/
