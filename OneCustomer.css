@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,900;1,700&family=Red+Hat+Display&display=swap');
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+html{
+    width: 100%;
+    font-size: 10px;
+}
+html, body{
+    padding: 0;
+    margin: 0;
+    min-height: 100vh;
+    max-width: 100vw;
+    height: 100vh;
+   } 
+
+body{
+    width: 100%;
+    font-family: 'Red Hat Display', sans-serif;
+    background-color: #f8fff8;
+}
+.logo{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-bottom: 1rem;
+}
+.logo img{
+    align-content: center;
+    justify-content: center;
+}
+.logo h1{
+    text-align: center;
+}
+.logo span{
+    color: #db5353;
+}
+.main{
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+    margin-left: 0px;
+    margin-top: 0px;
+    position: fixed;
+}
+.text{
+    position:absolute;
+     display: table;
+     overflow: hidden;
+    color:#fff;
+    top:0;
+    left:0;
+    margin-left: 5rem;
+    padding-top: 5rem;
+  }
+  .text h1{
+      font-size: 30px;
+      text-align: center;
+      font-family: 'Red Hat Display', sans-serif;
+      font-style: bolder;
+      font-weight: 800;
+      margin-bottom: 12rem;
+      line-height: 2.4rem; 
+  }
+  .text h2{
+      font-size: 25px;
+      text-align: center;
+      font-family: 'Red Hat Display', sans-serif;
+      font-style: bolder;
+      font-weight: 800;
+      line-height: 2.4rem; 
+      margin-bottom: 2rem;
+  }
+  .text p{
+      font-size: 15px;
+      text-align: center;
+      font-family: 'Red Hat Display', sans-serif;
+      font-style: bolder;
+      font-weight: 800;
+      line-height: 3.2rem; 
+  }
+  .text span{
+      color: red;
+  }
+  .content{
+    height: 100%;
+      width: 50%;
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      overflow: hidden;
+      padding-top: 20px;
+    }
+    .content{
+        right: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 3rem;
+    }
+.request button{
+            background-color: black;
+            color: #fff;
+            border-style: hidden;
+            border-radius: 5px;
+            width: 25rem;
+            padding: 0.8rem;
+            font-size: 18px;
+            margin-bottom: 0.2rem;
+}
+.request ul{
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-style: normal;
+    cursor: pointer;
+}
+.request a{
+            text-decoration: none;
+            color: black; 
+        }
+.request a:hover{
+    color: red;
+}
+.Update button{
+            background-color: black;
+            color: #fff;
+            border-style: hidden;
+            border-radius: 5px;
+            width: 25rem;
+            padding: 0.8rem;
+            font-size: 18px;
+            margin-bottom: 0.2rem;
+}
+.Update ul{
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Red Hat Display', sans-serif;
+    cursor: pointer;
+    font-style: normal;
+}
+.Update a:hover{
+    color: red;
+}
+.Update a{
+            text-decoration: none; 
+            color: black;  
+        }
+.complaint button{
+            background-color: black;
+            color: #fff;
+            border-style: hidden;
+            border-radius: 5px;
+            width: 25rem;
+            padding: 0.8rem;
+            font-size: 18px;
+            margin-bottom: 0.2rem;
+}
+.complaint ul{
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Red Hat Display', sans-serif;
+    cursor: pointer;
+    font-style: normal;
+}
+.complaint a:hover{
+    color: red;
+}
+.complaint a{
+            text-decoration: none; 
+            color: black;
+        }
+
+        /* for samsung a51/71 and samsung ultra */
+@media (min-width:412px)and (max-width:914px) {
+     .main{
+        flex-direction: column;
+        width: 100%;
+        height: 35%; 
+    }
+    .content{
+        width: 100%;
+        height: 100%;
+       margin-top: 22rem;
+    }
+    .text h1{
+        font-size: 25px;
+        margin-bottom: 3rem;
+    }
+    .text h2, p{
+        font-size: 22px;
+        margin-bottom: 1.8rem;
+    }
+    .logo{
+        margin-top: 2rem;
+    }
+    .text{
+        padding-top: 1rem;
+    }
+    .request button, .Update button, .complaint button{
+        padding: 0.4rem;
+    }
+}
+/* for iphone 12pro and iphone x */
+@media (min-width:370px)and (max-width:750px){
+    .main{
+        flex-direction: column;
+        width: 100%;
+        height: 33%; 
+    }
+    .content{
+        width: 100%;
+        height: 100%;
+       margin-top: 27rem;
+    }
+    .text h1{
+        font-size: 20px;
+        margin-bottom: 3rem;
+    }
+    .text h2, p{
+        font-size: 18px;
+        margin-bottom: 1.8rem;
+    }
+    .text{
+        padding-top: 1rem;
+    }
+    .request button, .Update button, .complaint button{
+        padding: 0.1rem;
+        margin-bottom: 0.1rem; 
+        width: 20rem;
+    }
+      .logo{
+          margin-bottom: 0.1rem;
+      }
+
+
+   }
+@media (min-width:800px)and (max-width:1180px){
+    .main{
+        flex-direction: column;
+        width: 100%;
+        height: 40%; 
+    }
+    .content{
+        width: 100%;
+        height: 100%;
+       margin-top: 45rem;
+       
+    }
+    .text h1{
+        font-size: 30px;
+        margin-bottom: 6rem;
+       
+    }
+    .text h2, .text p{
+        font-size: 25px;
+        margin-bottom: 3rem;
+       
+    }
+    .text{
+        padding-top: 3rem;
+    }
+    .request button, .Update button, .complaint button{
+        padding: 1rem;
+        margin-bottom: 1rem; 
+        width: 25rem;
+    }
+      .logo{
+          margin-top: 1rem;
+          margin-bottom: 0.5rem;
+      }
+
+      .request a, .Update a, .complaint a{
+       font-size: 22px;
+    }
+   }

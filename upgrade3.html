@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upgrade3</title>
+    <link rel="stylesheet" href="upgrade3.css">
+</head>
+<body>
+    <div class="logo">
+        <img src="asset/SterlingA.png" alt="sterling logo" width="200px">
+        <h2>Welcome <span>Nkem...</span></h2>
+        <marquee>Visit the Bank no more...Upgrade your account with documents at ease!!!</marquee>
+        <h2>Please fill the form appropraitely....</h2>
+     <div class="contact-section">
+                    <div class="form-wrapper">
+             <div class="form1">
+                <form action="OneCustomer.html">
+                    
+                    <label for="title">Title</label>
+                    <select id="title" name="accountlist" form="accountform">
+                    <option value="mr">Mr</option>
+                    <option value="mrs">Mrs</option>
+                    <option value="mrs">Miss</option>
+                    <option value="others">Others</option>
+                    </select> <br><br>
+                    
+                    <label for="cvv">Enter your BVN</label>
+                          <input type="number" id="cvv" name="BVN" placeholder="Enter BVN"><br><br>
+                  
+                    <label for="account">Source Account</label>
+                <select id="cards" name="cardlist" form="cardform">
+                   <option value="account">0049875202</option>
+                    <option value="account">0058421649</option>
+                   </select><br></br>
+           
+               <label for="Branch">Branch name &nbsp;&nbsp;</label>
+               <input type="text" placeholder="Enter Branch name" name="text"><br></br>
+               
+               <label for="email">Email address &nbsp;&nbsp;</label>
+               <input type="email" placeholder="Enter Email" name="email"><br></br>
+
+               <label for="expyear">Gender</label>
+               <select id="title1" name="accountlist" form="accountform">
+                 <option value="mr">Male</option>
+                 <option value="mrs">Female</option>
+                 <option value="mrs">Transgender</option>
+                 </select><br><br>
+             </form>
+             </div>
+             <div class="form2">
+                <form action="OneCustomer.html">  
+   
+               
+               <label for="phone">Enter Phone number &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+               <input type="number" placeholder="Enter Phone number" name="number"><br></br>
+           
+               <label for="title">Select new product type</label>
+               <select id="card" name="accountlist" form="accountform">
+               <option value="mr">Tier-2-Kia account</option>
+               <option value="mrs">Regular-savings</option>
+               <option value="mrs">Sterling-Plus</option>
+               <option value="others">Student account</option>
+               </select> <br><br> 
+                
+               <label for="expyear">Enter Residence Address</label>
+                 <input type="text" id="expyear" name="expyear" placeholder="Enter Residence address"><br><br>
+               
+               
+                 <label for="cvv">Enter Date of Birth&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                 <input type="date" placeholder="Enter date of birth" name="date of birth"><br><br>
+                
+                 <label for="Reason">Reason for change of product</label>
+                    <input type="text" placeholder="Please state reason for change" name="request" id="request" required></input><br><br>
+
+                </form>
+            </div>          
+   </div>
+   <div>
+
+    <form action="OneCustomer.html">
+                  <div class="m-signature-pad--body">
+                        <canvas id="myCanvas" width="200" height="100"></canvas><br></br>
+                        <label for="myCanvas" class="label">e-signature (optional)</label><br></br>
+                    </div><br></br>
+             
+                    <label for="files">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Select Files:</label>
+                    <input type="file" id="Files" name="files" multiple><br><br>
+                    
+                    <a href="">Send OTP</a>
+                    <input type="number" class="bto" placeholder="Enter OTP" name="number">
+                    <button type="button" class="btn">Proceed</button>
+                    <button type="submit" id="book">Submit</button>
+                    </form>
+                         
+                  
+                    <form action="upgrade2.html">
+        <p><b>If existing account is ICANSAVE, kindly provide the information below:</b><p>
+               
+            <input type="submit" value="Next" class="btn1">
+              
+
+    <script>
+        const oyaBtn = document.getElementById('book')
+        oyaBtn.addEventListener('click' , () => {
+            alert("SUBMITTED SUCESSFULLY")
+        })
+     </script
+</body>
+</html>
+</body>
+</html>

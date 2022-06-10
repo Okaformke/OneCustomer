@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upgrade2</title>
+    <link rel="stylesheet" href="upgrade2.css">
+</head>
+<body>
+    <div class="logo">
+        <img src="asset/SterlingA.png" alt="sterling logo" width="200px">
+        <h2>Welcome <span>Nkem...</span></h2>
+        <marquee>Visit the Bank no more...Upgrade your account with documents at ease!!!</marquee>
+        <h2>(Cont)....Please fill the form appropraitely....</h2>
+     <div class="contact-section">
+                    <div class="form-wrapper">
+             <div class="form1">
+                <form action="OneCustomer.html">
+                    
+                  <label for="name">Name of account holder &nbsp;</label>
+                  <input type="text" placeholder="Enter your name" name="name"><br><br>
+             
+  
+                  <label for="date">Enter Date of Birth&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                  <input type="date" placeholder="Enter Date of Birth" name="date of birth"><br><br>
+             
+                  <label for="number">Enter your BVN &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+              <input type="number" placeholder="Enter BVN" name="number"><br><br>
+          
+  
+        
+              <label for="name">Name of Parent/Guardian</label>
+                  <input type="text" placeholder="Enter your name" name="name"><br><br>
+                  
+                  <label for="title1">I consent to upgrading this account</label>
+                  <select id="title1" name="consentlist" form="consentform">
+                      <option value="product">I agree</option>
+                      <option value="product">I disagree</option>
+                      </select><br><br>
+              
+                  <label for="phone">Enter Phone number &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+               <input type="number" placeholder="Enter Phone number" name="number"><br></br>
+  
+                         <label for="title">Select new product type</label>
+               <select id="card" name="accountlist" form="accountform">
+               <option value="mr">Tier-2-Kia account</option>
+               <option value="mrs">Regular-savings</option>
+               <option value="mrs">Sterling-Plus</option>
+               <option value="others">Student account</option>
+               </select> <br><br>
+             
+              </form>
+             </div>
+             <div class="form2">
+                <form action="OneCustomer.html">  
+   
+               
+                  <label for="title">Employment details&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                  <select id="title2" name="productlist" form="productform">
+                     <option value="product">Student</option>
+                     <option value="product">Employed</option>
+                  <label for="product">Self-employed</label>
+                  <label for="product">Retired</label>
+                  <label for="product">Others</label>
+              </select><br><br>
+
+                  <label for="title">Annual salary/Income&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                  <select id="title2" name="productlist" form="productform">
+                     <option value="product">0-N999,999</option>
+                     <option value="product">1M-N5.9Million</option>
+                     <option value="product">6M-N10.9Million</option>
+                     <option value="product">11M-N15.9Million</option>
+                     <option value="product">16M-N5.29.9Million</option>
+                     <option value="product">30M-N99.9Million</option>
+                  </select><br><br>
+              
+                     <label for="text">Enter Employer's name&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                     <input type="text" placeholder="Enter name "><br><br>
+          
+                     <label for="text">Enter Employer's address&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                     <input type="text" placeholder="Enter address " name="request" rows="3"><br><br>
+              
+                     <label for="title">Do you have any political affiliation?&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                     <select id="title1" name="productlist" form="productform">
+                      <option value="product">No</option>
+                      <option value="product">Yes</option>
+                  </select><br><br>
+
+                  <label for="title">Input Next-of-kin-details&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                  <input type="text" placeholder="Enter next of kin details" name="next of kin"><br><br>
+           
+                  <label for="title">Next-of-kin-R/ship</label>
+                     <select id="title" name="productlist" form="productform">
+                      <option value="product">Sibling</option>
+                      <option value="product">Spouse</option>
+                      <option value="product">Guardian</option>
+                      <option value="product">Others</option>
+                  </select><br><br>   
+
+                </form>
+            </div>          
+   </div>
+   <div>
+
+    <form action="OneCustomer.html">
+                  <div class="m-signature-pad--body">
+                        <canvas id="myCanvas" width="200" height="100"></canvas><br></br>
+                        <label for="myCanvas" class="label">e-signature (optional)</label><br></br>
+                    </div><br></br>
+             
+                    <label for="files">Select Files:</label>
+                    <input type="file" id="Files" name="files" multiple><br><br>
+                    
+                    <a href="">Send OTP</a>
+                    <input type="number" class="bto" placeholder="Enter OTP" name="number">
+                    <button type="button" class="btn">Proceed</button>
+                    <button type="submit" id="book">Submit</button>
+                    </form>
+
+    <script>
+        const oyaBtn = document.getElementById('book')
+        oyaBtn.addEventListener('click' , () => {
+            alert("SUBMITTED SUCESSFULLY")
+        })
+     </script
+</body>
+</html>
+</body>
+</html>

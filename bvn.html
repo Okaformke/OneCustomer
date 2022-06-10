@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BVN</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="bvn.css">
+</head>
+<body>
+    <h2>Welcome <span>Nkem...</span></h2>
+     <marquee>Update your BVN details with just a click-away at your convienience!!!(This only applies to users who enrolled their BVN with Sterling Bank)</marquee>
+     <h2>Please fill the form appropraitely....</h2>
+     
+     <div class="container">
+        <form action="formnew.html">
+          <div class="row">
+            <div class="col-50">
+                <div class="SURNAME">
+                    <form class="form-inline" action="">
+                      <!-- see if you can put the bvn of customer care to this page -->
+                        <label for="number"><b> BVN</b></label>
+                      <input type="number" id="number" placeholder="Enter your 11 digit BVN" name="number">
+                    </form> 
+                    <div class="btnB">
+                        <input type="submit" value="Search" class="btn">
+                    </div>
+                    <h1>Current details</h1>
+                    <label for="title"><b>Title</b></label>
+                    <select id="title" name="accountlist" form="accountform">
+                    <option value="mr">Mr</option>
+                    <option value="mrs">Mrs</option>
+                    <option value="mrs">Miss</option>
+                    <option value="others">Others (specify)</option>
+                    </select>
+                    <input type="text" placeholder="Please specify" name="text">
+                   </select>   
+                   <div class="row">
+                    <div class="col-50">
+                      <label for="expyear"><b> First Name</b></label>
+                      <input type="text" id="expyear" name="expyear" placeholder="Nkem">
+                    </div>
+                    <div class="col-50">
+                      <label for="cvv"><b>Middle Name</b></label>
+                      <input type="text" id="cvv" name="cvv" placeholder="Mavis">
+                    </div>
+                </div> 
+                <div class="row">
+                    <div class="col-50">
+                      <label for="expyear"><b>Last Name</b></label>
+                      <input type="text" id="expyear" name="expyear" placeholder="Okafor">
+                    </div>
+                    <div class="col-50">
+                      <label for="cvv"><b>Phone number</b> </label>
+                      <input type="text" id="cvv" name="cvv" placeholder="08030000000">
+                    </div>
+                </div> 
+                  <div class="row">
+                        <div class="col-50">
+                          <label for="expyear"><b>Gender</b></label>
+                          <select id="title1" name="accountlist" form="accountform">
+                            <option value="mr">Male</option>
+                            <option value="mrs">Female</option>
+                            <option value="mrs">Transgender</option>
+                            </select>
+                        </div>
+                        <div class="col-50">
+                          <label for="cvv"><b>Date of Birth</b> </label>
+                          <input type="date" placeholder="Enter old date of birth" name="date of birth">&nbsp;&nbsp;&nbsp;
+                        </div>
+                        <label for="title" style="padding-left: 15px;"><b>Marital Status</b> </label>
+                        <select id="title" name="accountlist" form="accountform">
+                        <option value="mr">Single</option>
+                        <option value="mrs">Married</option>
+                        <option value="mrs">Divorced</option>
+                        <option value="others">Others </option>
+                        </select>
+        
+                    </div>
+                 </div>
+            </div>  
+            <div class="col-50">
+              <div class="BVN">
+                <h1>New details</h1>
+                <label for="title"><b>Title</b></label>
+                <select id="title" name="accountlist" form="accountform">
+                <option value="mr">Mr</option>
+                <option value="mrs">Mrs</option>
+                <option value="mrs">Miss</option>
+                <option value="others">Others (specify)</option>
+                </select>
+                <input type="text" placeholder="Please specify" name="text">
+               </select>   
+               <div class="row">
+                <div class="col-50">
+                  <label for="expyear"><b> First Name</b></label>
+                  <input type="text" id="expyear" name="expyear" placeholder="Nkem">
+                </div>
+                <div class="col-50">
+                  <label for="cvv"><b>Middle Name</b></label>
+                  <input type="text" id="cvv" name="cvv" placeholder="Mavis">
+                </div>
+            </div> 
+            <div class="row">
+                <div class="col-50">
+                  <label for="expyear"><b>Last Name</b></label>
+                  <input type="text" id="expyear" name="expyear" placeholder="Okafor">
+                </div>
+                <div class="col-50">
+                  <label for="cvv"><b>Phone number</b> </label>
+                  <input type="text" id="cvv" name="cvv" placeholder="08030000000">
+                </div>
+            </div> 
+              <div class="row">
+                    <div class="col-50">
+                      <label for="expyear"><b>Gender</b></label>
+                      <select id="title1" name="accountlist" form="accountform">
+                        <option value="mr">Male</option>
+                        <option value="mrs">Female</option>
+                        <option value="mrs">Transgender</option>
+                        </select>
+                    </div>
+                    <div class="col-50">
+                      <label for="cvv"><b>Date of Birth</b> </label>
+                      <input type="date" placeholder="Enter old date of birth" name="date of birth">&nbsp;&nbsp;&nbsp;
+                    </div>
+                    <label for="title2" style="padding-left: 15px;"><b>Marital Status</b> </label>
+                    <select id="title2" name="accountlist" form="accountform">
+                    <option value="mr">Single</option>
+                    <option value="mrs">Married</option>
+                    <option value="mrs">Divorced</option>
+                    <option value="others">Others </option>
+                    </select>
+            </div>
+          </div>
+          <input type="submit" value="Next" class="btn1">
+        </form>
+  
+     
+</body>
+</html>

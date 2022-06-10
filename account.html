@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>account details</title>
+    <link rel="stylesheet" href="account.css">
+</head>
+<body>
+    <div class="logo">
+        <img src="asset/SterlingA.png" alt="sterling logo" width="200px">
+        <h2>Welcome <span>Nkem</span>...</h2>
+</div>
+     <marquee>Update your account details with just a click-away at your<span> convienience!!!</span></marquee>
+     <h2>Please fill the appropraite details specific to your request....</h2>
+     <div class="contact-section">
+                    <div class="form-wrapper">
+                        
+                        <div class="form1">
+                            <form action="OneCustomer.html">
+                                   
+            <label for="text">Branch Name&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input type="text" placeholder="Enter Branch name" name="text"><br></br>
+           
+            <label for="number"> Enter BVN</label>
+            <input type="number" placeholder="Enter BVN" name="number"><br></br>
+            
+            
+            <label for="date">Change Date of Birth</label>
+            <input type="date" placeholder="Enter old date of birth" name="date of birth"><br></br>
+             
+            
+                <label for="text">Change account name</label>
+            <input type="text" placeholder="Enter old account name" name="text"><br></br>
+            
+            
+            <label for="text">Change my address&nbsp;&nbsp;&nbsp;</label>
+            <input type="text" placeholder="Enter old address" name="request"><br></br>
+
+            
+            <label for="text">Change my Email&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input type="text" placeholder="Enter old Email" name="text"><br></br>
+            
+            <label for="text">Change next of kin&nbsp;&nbsp;&nbsp;</label>
+            <input type="text" placeholder="Enter old next of kin details" name="next of kin"><br></br>
+        
+        </form>
+        </div>
+    <div class="form2">
+       <form action="OneCustomer.html"> 
+       
+       
+       
+        <label for="account">Select Account type</label>
+        <select id="account" name="accountlist" form="accountform">
+           <option value="account">0049875202</option>
+            <option value="account">0058421649</option>
+           </select><br></br>
+            
+           <label for="account">Select next-of-kin Relationship</label>
+            <select id="pen" name="kinlist" form="kinform">
+                <option value="Siblings">Siblings</option>
+                <option value="Spouse">Spouse</option>
+                <option value="Guardian">Guardian</option>
+                <option value="others">Others</option>
+            </select><br></br>
+            
+            <label for="date">New Date of Birth&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input type="date" placeholder="Enter new date of birth" name="date" id="ace"><br></br>
+            
+            <label for="text"> Change account name</label>
+            <input type="text" placeholder="Enter new account name" name="text"><br></br>
+           
+            <label for="text">Change my address&nbsp;&nbsp;&nbsp;&nbsp;</label>
+           <input type="text" placeholder="Enter new address" name="request" id="ace"><br></br>
+           <label for="text">Change my Email&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+           <input type="text" placeholder="Enter new Email" name="text"><br></br>
+            
+           
+            <label for="text">Change next of kin&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input type="text" placeholder="Enter new next of kin details" name="next of kin"><br></br>
+            
+
+            
+        </form>
+    </div>
+</div>
+<form action="OneCustomer.html">
+            <p> I have attached the following supporting documents:</p>
+            
+            <div>
+                <input type="radio" id="valid" name="valid means" value="valid">
+                <label for="valid">Valid means of identification</label>
+                 <div>
+                <input type="radio" id="valid" name="valid means" value="valid">
+                    <label for="voter">Voters card</label>
+                    <input type="radio" id="valid" name="valid means" value="valid">
+                <label for="intl">I'ntl Passport</label>
+                <input type="radio" id="valid" name="valid means" value="valid">
+                <label for="valid">Driver's License</label>
+                <input type="radio" id="valid" name="valid means" value="valid">
+                <label for="valid">National ID Card</label>
+                <input type="number" id="sa"   placeholder="Enter ID No" name="number">
+                 </div>
+            </div>
+            <div>
+            <input type="radio" id="birth" name="valid means" value="valid">
+            <label for="intl">Birth Certificate</label>
+            <input type="radio" id="marraige" name="valid means" value="valid">
+            <label for="marraige">Marraige Certificate</label>
+            <input type="radio" id="news" name="valid means" value="valid">
+            <label for="news">Newspaper Publication</label>
+            <input type="radio" id="court" name="valid means" value="valid">
+            <label for="court">Court Affidavit</label>
+            <input type="radio" id="Utility Bill" name="valid means" value="valid">
+            <label for="intl">Utility Bill</label>
+            <div>
+                <label for="Reason">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Reason for change</label>
+        <input type="text" placeholder="Please state reason for change" name="request" id="sa"></input>
+                    </div>
+        
+            
+                <div class="m-signature-pad--body">
+                    <canvas id="myCanvas" width="200" height="50"></canvas><br><br>
+                    <label for="myCanvas">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;e-signature (optional)</label><br><br>
+                </div>
+
+            <div>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<label for="files">Select Files:</label>
+                <input type="file" id="Files" name="files" multiple><br><br>
+            </div>
+            <a href="">Send OTP</a>
+            <input type="number" id="bto" placeholder="Enter OTP" name="number">
+            <button type="submit" class="btn">Proceed</button>
+            <button type="submit" id="cup">Submit</button>
+          </form>
+    </div>
+    </div>
+
+
+    <script>
+        const oyaBtn = document.getElementById('cup')
+        oyaBtn.addEventListener('click' , () => {
+            alert("SUBMITTED SUCESSFULLY")
+        })
+     </script
+</body>
+</html>

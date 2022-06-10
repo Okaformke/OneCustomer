@@ -55,7 +55,7 @@ height: 100%;
         text-align: center;
     }
     .logo span{
-        color: #db5353;
+        color: #db353a;
     }
     .buttons{
         display: flex;
@@ -68,7 +68,7 @@ height: 100%;
         width: 20rem;
         padding: 15px;
         margin-right: 2rem;
-        border-radius: 2px;
+        border-radius: 5px;
         background-color: black;
         color: white;
         border-style: hidden;
@@ -81,7 +81,7 @@ height: 100%;
         padding: 15px;
         margin-left: 2rem;
         font-family: 'Red Hat Display', sans-serif;
-        border-radius: 2px;
+        border-radius: 5px;
         background-color: lightgrey;
         color: black;
         border-style: hidden;
@@ -103,7 +103,7 @@ height: 100%;
         }
         input{
             width: 100%;
-            border-radius: 2px;
+            border-radius: 5px;
             border: 1px solid #cccc;
             height: 4rem;
             margin-bottom: 3rem;
@@ -111,11 +111,11 @@ height: 100%;
         }
         
 #submit{
-    background-color: #db5353;
+    background-color: #db353a;
     padding: 15px;
     border-style: hidden;
-    border-color: #db5353;
-    border-radius: 2px;
+    border-color: #db353a;
+    border-radius: 5px;
     color: white;
     font-family: 'Red Hat Display', sans-serif;
 }

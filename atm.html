@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>atm/pos dispute</title>
+    <link rel="stylesheet" href="atm.css">
+</head>
+<body>
+    <div class="logo">
+        <img src="asset/SterlingA.png" alt="sterling logo" width="200px">
+        <h2>Welcome <span>Nkem</span>...</h2>
+</div>
+     <marquee>We apologise for any inconvieniences this complaint may have caused you but be rest assured that we will do all we can to resolve it within the stipulated timeline...</marquee>
+     <div class="contact-section">
+                    <div class="form-wrapper">
+             <div class="form1">
+                <form action="OneCustomer.html">
+                    
+                   <label for="account">Source Account</label>
+                <select id="cards" name="cardlist" form="cardform">
+                   <option value="account">0049875202</option>
+                    <option value="account">0058421649</option>
+                   </select><br></br>
+           
+               <label for="Branch">Branch name &nbsp;&nbsp;</label>
+               <input type="text" placeholder="Enter Branch name" name="text"><br></br>
+               
+               <label for="email">Email address &nbsp;&nbsp;</label>
+               <input type="email" placeholder="Enter Email" name="email"><br></br>
+                  
+               
+            
+           <label for="phone">Phone number &nbsp;</label>
+               <input type="number" placeholder="Enter Phone number" name="number"><br></br>
+           
+               <label for="card">Select card type</label>
+               <select id="cards" name="cardlist" form="cardform">
+                   <option value="Verve">Verve</option>
+                   <option value="Master">Master</option>
+                   <option value="Visa">Visa</option>
+               </select><br></br>
+   
+               <label for="phone">Card Number &nbsp;&nbsp;</label>
+               <input type="number" placeholder="Enter the first six and last four digit" name="number" cols="10"><br></br>
+                
+              
+           
+             </form>
+             </div>
+             <div class="form2">
+                <form action="OneCustomer.html">  
+   
+               <label for="card">Select the dispute form &nbsp;&nbsp;&nbsp;&nbsp;</label>
+               <select id="cards" name="cardlist" form="cardform">
+                   <option value="Verve">ATM</option>
+                   <option value="Master">POS</option>
+                   <option value="Verve">USSD</option>
+                   <option value="Master">MOBILE APP</option>
+                   <option value="Visa">WEB</option>
+               </select> <br></br>    
+   
+   
+               <label for="card">Select the dispute type &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+               <select id="cards" class="dispute" name="cardlist" form="cardform">
+                   <option value="Verve">On-us-Atm-cash-withdrawal (Sterling Bank)</option>
+                   <option value="Master">Not-on-us Atm-cash-withdrawal (Other Bank)</option>
+                   <option value="Visa">On-us Atm-fund transfer (Sterling Bank)</option>
+                   <option value="Visa">Not-on-us-Atm-fund transfer (Other Bank)</option>
+                   <option value="Visa">Failed POS-cash withdrawal</option>
+                   <option value="Visa">Failed POS-fund transfer</option>
+                   <option value="Verve">USSD recharge</option>
+                   <option value="Master">USSD transfers</option>
+                   <option value="Visa">USSD Bill payments</option>
+                   <option value="Visa">Mobile recharge</option>
+                   <option value="Visa">Mobile transfers</option>
+                   <option value="Visa">Mobile Bill payments</option>
+                   <option value="Visa">Web payments</option>
+                   <option value="Visa">Int'l transactions</option>
+                   <option value="Visa">Erroneous Transfer</option>
+                   <option value="Visa">Fraud</option>
+               </select> <br></br>
+               
+               <label for="email">Amount (Figures only) &nbsp;&nbsp;&nbsp;&nbsp;</label>
+               <input type="number" class="dispute" placeholder="Enter amount" name="number"><br></br>
+   
+           
+   
+           <label for="date">Select Date of transaction &nbsp;</label>
+           <input type="date" placeholder="Enter date of transaction" name="date"><br></br> 
+   
+               <label for="text">Location of transaction &nbsp;&nbsp; &nbsp;</label>
+               <input type="text" class="dispute" placeholder="Enter location of transaction" name="text"><br></br>
+   
+               <label for="text">Wrong Beneficiary details</label>
+               <input type="text" placeholder="Enter Name & Bank" name="number"><br></br>
+   
+           
+   
+               <label for="phone">Wrong Beneficiary account</label>
+               <input type="number" placeholder="Enter account number" name="number"><br></br>
+           
+             
+             </form>
+             </div>          
+    </div>
+    <div>
+        <form action="OneCustomer.html">
+        <p>
+            I/We <input type="text" placeholder="Enter Name" name="text"> authorize Sterling Bank Plc to recall funds transferred with details above as it was done in error by me/us. The beneficiary is known/unknown to me/us.
+            </p>
+            <p>
+               <span>For your information, we have listed the timelines for the resolution of your complaints which takes effects from the moment your complaint is received by the Bank. Please note that wekends (Saturdays and Sundays) have been taken into consideration within these timelines.</span>
+            </p>
+           
+           <label for="card" class="label"><span>See dispute resolution timelines:</span></label>
+             <select id="cards" name="cardlist" form="cardform">
+     <option value="Verve">Atm dispute(Other Banks) - 3 to 5 working days</option>
+     <option value="Verve">Atm dispute(Sterling Bank) - 1 working day </option>
+     <option value="Verve">POS and Web disputes - 5 to 7 working days </option>
+     <option value="Verve">Visa Card int'l disputes - 45 working days </option>
+     <option value="Verve">Erroneous Fund Transfer - Subject to availability of funds and beneficiary consent </option>
+     <option value="Verve">Mobile and USSD dispute - 1 to 2 working days </option>
+
+         </select>   
+           <div class="m-signature-pad--body">
+                <canvas id="myCanvas" width="200" height="100"></canvas><br></br>
+                <label for="myCanvas" class="label">e-signature (optional)</label><br></br>
+            </div><br></br>
+
+            
+            <a href="">Send OTP</a>
+            <input type="number" class="bto" placeholder="Enter OTP" name="number">
+            <button type="submit" class="btn">Proceed</button>
+            <button type="submit" id="book">Submit</button>
+        </form>  
+    </div>
+    </div>
+
+    <script>
+        const oyaBtn = document.getElementById('book')
+        oyaBtn.addEventListener('click' , () => {
+            alert("SUBMITTED SUCESSFULLY")
+        })
+     </script
+</body>
+</html>

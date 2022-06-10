@@ -100,6 +100,12 @@ body{
     font-family: 'Red Hat Display' sans-serif;
     font-weight: 600;   
 }
+.bto{
+    background-color: black;
+}
+.bto h3{
+    color: white;
+}
 .btn i , .btnn i{
   font-size: 20px;
   display: block;
@@ -115,10 +121,23 @@ body{
 .fa-angle-down{
     float: right;
 }
-.dropdown-container{
+#dropdown-container{
     width: inherit;
+    display: none;
 }
-.dropdown-container a{
+#trouser{
+    width: inherit;
+    display: none;
+}
+#nikas{
+    width: inherit;
+    display: none;
+}
+#table{
+    width: inherit;
+    display: none;
+}
+#dropdown-container a{
          font-size: 13px;
         color: #818181;
         display: block;
@@ -128,7 +147,50 @@ body{
         font-family: 'Red Hat Display' sans-serif;
         height: 10px;
         text-decoration: none;
+        margin-left: 30px;
+        padding: 10px;
+
 }
+#trouser a{
+         font-size: 13px;
+        color: #818181;
+        display: block;
+        background: none;
+        text-align: start;
+        outline: none;
+        font-family: 'Red Hat Display' sans-serif;
+        height: 10px;
+        text-decoration: none;
+        margin-left: 30px;
+        padding: 10px;
+}
+#nikas a{
+         font-size: 13px;
+        color: #818181;
+        display: block;
+        background: none;
+        text-align: start;
+        outline: none;
+        font-family: 'Red Hat Display' sans-serif;
+        height: 10px;
+        text-decoration: none;
+        margin-left: 30px;
+        padding: 10px;
+}
+#table ul{
+         font-size: 13px;
+        color: #818181;
+        display: block;
+        background: none;
+        text-align: start;
+        outline: none;
+        font-family: 'Red Hat Display' sans-serif;
+        height: 10px;
+        text-decoration: none;
+        margin-left: 30px;
+        padding: 10px;
+}
+
 .main-section{
     width: 55%;
     height: 100%;
@@ -162,6 +224,10 @@ body{
         flex-basis: 22%;
         margin-right: 1rem;
         margin-bottom: 2em;
+    }
+    .flex-features a{
+        text-decoration: none;
+        color: black;
     }
 .flex-features div:hover{
         -ms-transform: scale(1.1);
@@ -302,9 +368,33 @@ word-spacing: 0.2em;
       font-weight: 600;
   }
   .transact{
-      border: 1px solid gainsboro;
+      border: 1px solid lightgray;
       background-color: #f8f8ff;
       border-radius: 5px;
       margin-right: 2rem;
       margin-top: 4rem;
+      height: 180px;
   }
+  .tra{
+      width: 24rem;
+      margin-top: 2rem;
+      margin-left: 2rem;
+      background-color: #ffff;
+      border-style: none;
+      border-radius: 5px;
+    
+  }
+  
+.dropdown {  
+    position: relative;  
+    display: inline-block;  
+}
+.monthh {  
+    position: relative;  
+    display: inline-block;  
+}
+.button {  
+    padding: 10px 30px;  
+    font-size: 15px;  
+}
+

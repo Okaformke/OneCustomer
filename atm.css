@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,900;1,700&family=Red+Hat+Display&display=swap');
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+html{
+    width: 100%;
+    font-size: 15px;
+}
+html, body{
+    padding: 0;
+    margin: 0;
+    min-height: 100vh;
+    max-width: 100vw; 
+   } 
+
+body{
+    width: 100%;
+    background-image: url(asset/black.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.logo{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: flex-start;
+}
+.logo img{
+  align-content: flex-start;
+  justify-content: flex-start;
+  font-size: 24px; 
+}
+.logo h2{
+  font-size: 20px;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  margin-left: 32rem;
+  margin-right: 25rem;
+}
+  .contact-section{
+      background-color: #f2f2f2;
+      width: 95%;
+      height: 95%;
+      margin-left: 2.5rem;    
+  }
+  .form1 input{
+    width: 50%;
+    border-radius: 0.5px;
+    border: 0.2px solid #cccc;
+    height: 2rem;
+    margin-bottom: 0.8rem;
+    
+  }
+  .form1, .form2{
+    width: 50%;
+    
+  }
+  .form1{
+    margin-left: 5rem;
+  }
+  .form2 input{
+    width: 50%;
+    border-radius: 0.5px;
+    border: 0.2px solid #cccc;
+    height: 2rem;
+    margin-bottom: 0.8rem;
+  }
+  marquee{
+    color: red;
+    width: 60%;
+    font-size: 20px;
+    direction: left;
+  }
+  form{
+    height: 100%;
+    display: flex;
+    display: block;
+    flex-direction: column;
+    margin-top: 2rem;
+  }
+  .form-wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  label{
+    align-self: flex-start;
+    font-size: 15px;
+    padding: 8px;
+  }
+  span{
+    color: red;
+  }
+  input{
+    width: 20%;
+    border-radius: 0.5px;
+    border: 0.2px solid #cccc;
+    height: 2rem;
+    margin-bottom: 0.8rem;
+  }
+  .biro{
+    width: 60%;
+    border-radius: 0.5px;
+    border: 0.2px solid #cccc;
+    height: 2rem;
+    margin-bottom: 0.8rem;
+  }
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+p{
+  margin-left: 5rem;
+}
+.dispute{
+  width: 40%;
+    border-radius: 0.5px;
+    border: 0.2px solid #cccc;
+    height: 3rem;
+    margin-bottom: 0.8rem;
+  }
+  .form1 #cards{
+    width: 50%;
+    border-radius: 0.5px;
+    border: 0.2px solid #cccc;
+    height: 2rem;
+    margin-bottom: 0.8rem;
+  }
+  .label{
+    margin-left: 4.5rem;
+  }
+  .form2 #cards{
+    width: 50%;
+    border-radius: 0.5px;
+    border: 0.2px solid #cccc;
+    height: 2rem;
+    margin-bottom: 0.8rem;
+  }
+  .m-signature-pad--body canvas {
+    position: relative;
+    left: 0;
+    top: 0;
+    border: 1px solid lightgray;
+    margin-left: 5rem;
+    margin-top: 1rem;
+  }
+  .bto{
+    padding: 0.5rem;
+    width: 15em;
+    align-items: center;
+    border-radius: .5px;
+    border: none;
+    color: white;
+    background-color: black;
+  
+    margin-left: 7rem;
+    margin-top: 0.8rem;
+  
+  }
+  #book , .btn{
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    width: 15em;
+    align-items: center;
+    border-radius: .5px;
+    border: none;
+    color: white;
+    background-color: black;
+    margin-left: 7rem;
+    margin-top: 0.8rem;
+    cursor: pointer;
+  
+  }
+  button:hover{
+    color: red;
+  }
+   a{
+    font-size: 15px;
+    color: black;
+    margin-left: 5rem;
+  }
+  
+  
+  
+  
+  
+  
+  
+
+  
+  

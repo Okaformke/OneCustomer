@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cheque</title>
+    <link rel="stylesheet" href="cheque.css">
+</head>
+<body>
+   <h3>Welcome <span>Nkem...</span></h3>
+     <marquee>Cheque at your doorstep? &nbsp;&nbsp;&nbsp;Let's get started right-away!!!</marquee>
+     <div class="container">
+                    <div class="form-wrapper">
+                        <form action="OneCustomer.html">
+
+            <label for="account"><b>Source account &nbsp;&nbsp;&nbsp;<span>(Current only)</span></b></label>
+             <select id="cards" name="cardlist" form="cardform">
+                <option value="account">0049875202</option>
+                 <option value="account">0058421649</option>
+                </select><br></br>
+                
+            
+            <label for="card"><b>Cheque size:</b></label>
+            <select id="cards" name="cardlist" form="cardform">
+                <option value="plus">50 leaves</option>
+                <option value="Master">100 leaves</option>
+            </select><br></br>
+            
+            <label for="Branch"><b>Branch name</b></label>
+            <input type="text" placeholder="Enter Branch name" name="text"><br></br>
+            
+            <label for="email"><b>Email address</b></label>
+            <input type="email" placeholder="Enter Email" name="email"><br></br>
+            
+            <label for="phone"><b>Phone number</b></label>
+            <input type="number" placeholder="Enter Phone number" name="number"><br></br>
+        
+            <div class="m-signature-pad--body">
+                <canvas id="myCanvas" width="200" height="100"></canvas><br></br>
+                <label for="myCanvas"><b>e-signature (optional)</b></label><br></br>
+            </div><br></br>
+            
+            
+            <a href=""><b>Send OTP</b></a>
+            <input type="number" class="bto" placeholder="Enter OTP" name="number"><br></br>
+            <button type="button" class="btnn">Proceed</button>
+            <button type="submit" id="pen">Submit</button>
+          </form>
+    </div>
+    </div>
+    <script>
+        const oyaBtn = document.getElementById('pen')
+        oyaBtn.addEventListener('click' , () => {
+            alert("SUBMITTED SUCESSFULLY")
+        })
+     </script>
+</body>
+</html>

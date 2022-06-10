@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bvn-cont</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="bvn.css"> 
+    <link rel="stylesheet" href="formnew.css">
+</head>
+<body>
+    <h2>Welcome <span>Nkem...</span></h2>
+    <marquee>Update your BVN details with just a click-away at your convienience!!!(This only applies to users who enrolled BVN with Sterling Bank)</marquee>
+    <h2>(Cont)...Please fill the form appropraitely....</h2>
+    <div class="container">
+        <form action="OneCustomer.html">
+          <div class="row">
+            <div class="col-50">
+              <div class="SURNAME">
+                    <h1>Current details</h1>
+                    <label for="expyear"><b>Email address</b></label>
+                      <input type="text" id="expyear" name="expyear" placeholder="....@gmail.com">  
+                   <div class="row">
+                    <div class="col-50">
+                      <label for="expyear"><b>Country</b></label>
+                      <input type="text" id="expyear" name="expyear" placeholder="Nigeria">
+                    </div>
+                    <div class="col-50">
+                      <label for="cvv"><b>State of origin</b></label>
+                      <input type="text" id="cvv" name="cvv" placeholder="Enter state">
+                    </div>
+                </div> 
+                
+                <div class="row">
+                    <div class="col-50">
+                      <label for="expyear"><b>LGA of origin</b></label>
+                      <input type="text" id="expyear" name="expyear" placeholder="Enter LGA">
+                    </div>
+                    <div class="col-50">
+                      <label for="cvv"><b>State of Residence</b> </label>
+                      <input type="text" id="cvv" name="cvv" placeholder="Enter state">
+                    </div>
+                </div> 
+                  <div class="row">
+                        <div class="col-50">
+                          <label for="expyear"><b>LGA of residence</b></label>
+                          <input type="text" placeholder="Enter LGA" name="LGA" &nbsp;&nbsp;&nbsp;>
+                        </div>
+                        <div class="col-50">
+                          <label for="cvv"><b>Residence address</b> </label>
+                          <input type="text" placeholder="Enter residence address" name="date of birth">&nbsp;&nbsp;&nbsp;
+                        </div> 
+                 </div>
+            </div> 
+            </div>
+            
+            <div class="col-50">
+              <div class="BVN">
+                <h1>New details</h1>
+                <label for="expyear"><b>Email address</b></label>
+                      <input type="text" id="expyear" name="expyear" placeholder="new....@gmail.com">  
+                   <div class="row">
+                    <div class="col-50">
+                      <label for="expyear"><b>Country</b></label>
+                      <input type="text" id="expyear" name="expyear" placeholder="Nigeria">
+                    </div>
+                    <div class="col-50">
+                      <label for="cvv"><b>State of origin</b></label>
+                      <input type="text" id="cvv" name="cvv" placeholder="Enter new state">
+                    </div>
+                </div> 
+                <div class="row">
+                    <div class="col-50">
+                      <label for="expyear"><b>LGA of origin</b></label>
+                      <input type="text" id="expyear" name="expyear" placeholder="Enter new LGA">
+                    </div>
+                    <div class="col-50">
+                      <label for="cvv"><b>State of Residence</b> </label>
+                      <input type="text" id="cvv" name="cvv" placeholder="New State of Residence ">
+                    </div>
+                </div> 
+                  <div class="row">
+                        <div class="col-50">
+                          <label for="expyear"><b>LGA of residence</b></label>
+                          <input type="text" placeholder="Enter new LGA" name="date of birth">&nbsp;&nbsp;&nbsp;
+                        </div>
+                        <div class="col-50">
+                          <label for="cvv"><b>Residence address</b> </label>
+                          <input type="text" placeholder="Enter new Residence" name="date of birth">&nbsp;&nbsp;&nbsp;
+                        </div>
+            </div>
+          </div>
+          </form>
+          
+            <label for="files">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Select Files:</label>
+            <input type="file" id="Files" name="files" multiple><br><br>
+            
+               <button type="submit" class="btn">Proceed</button>
+               <button type="submit" id="clock">Submit</button>
+           </form>  
+       </div>
+       </div>
+   
+       <script>
+           const oyaBtn = document.getElementById('clock')
+           oyaBtn.addEventListener('click' , () => {
+               alert("SUBMITTED SUCESSFULLY")
+           })
+        </script
+               
+</body>
+</html>
