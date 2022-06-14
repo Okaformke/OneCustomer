@@ -101,10 +101,10 @@ body{
   }
   .SURNAME{
     margin-right: 3rem;
-    margin-top: 4.5rem;
+    margin-top: 3rem;
 }
 .BVN{
-  margin-top: 4.5rem;
+  margin-top: 3rem;
   margin-left: 3rem;
 }
  
@@ -146,4 +146,29 @@ input::-webkit-inner-spin-button {
     .col-25 {
       margin-bottom: 20px;
     }
+  marquee{
+    margin-top: 5rem;
   }
+  
+  }
+
+  @media (max-width: 1280px) {
+    marquee{
+     margin-top: 7rem;
+
+    }
+  }
+  @media (min-width: 412px)and (max-width: 914px) {
+    marquee{
+     margin-top: 7rem;
+    }
+    h2{
+      margin-bottom: 2rem;
+    }
+  }
+
+  @media (max-width: 600px) {
+ marquee{
+    margin-top: 3rem;
+  }
+}

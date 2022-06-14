@@ -240,6 +240,8 @@ body{
 
 
    }
+
+   /* ipad */
 @media (min-width:800px)and (max-width:1180px){
     .main{
         flex-direction: column;

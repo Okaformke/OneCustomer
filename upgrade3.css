@@ -35,7 +35,7 @@ body{
   justify-content: flex-start;
   font-size: 24px; 
 }
-.logo h2{
+.logo h2, .logo h3{
   font-size: 20px;
   align-items: center;
   justify-content: center;
@@ -172,7 +172,7 @@ p{
     margin-left: 5rem;
     margin-top: 1rem;
   }
-  .bto{
+  #bto{
     padding: 0.5rem;
     width: 15em;
     align-items: center;
@@ -220,11 +220,105 @@ p{
   }
   
   
-  
-  
-  
-  
-  
+ 
+  @media (min-width:370px)and (max-width:750px) { 
+    .logo h3{
+      margin-left: 2rem;
+      margin-right: 2rem;
+      
+      flex-direction: column;
+    }
+    .logo img{
+      width: 380px;
+    }
+    .contact-section{
+      width: 100%;
+      height: 100%;
+      margin-left: 0rem;
+      margin-right: 0rem;
+    }
+    .form-wrapper, .form{
+      margin-right: 0rem;
+      margin-left: 0rem;
+      width: 100%;
+    }
+    .form2{
+    
+      margin-right: 0.1rem;
+    }
+    .form1{
+      margin-left: 1rem;
+    }
+    label{
+      margin-left: 0rem;
+      margin-right: 0rem;
+    }
+    input[type="number"] {
+      width: 80%;
+    }
+    input[type="email"] {
+      width: 80%;
+    }
+    input[type="text"] {
+      width: 80%;
+    }
+    input[type="date"] {
+      width: 80%;
+    }
+    .form2 #cards{
+      width: 80%;
+    }
+    .form1 #cards{
+      width: 80%;
+    }
 
+    p{
+      margin-left: 0.5rem;
+      margin-left: 0.5rem;
+    }     
+     }
+
+    
+     @media (min-width:412px)and (max-width:914px) {
+      .logo h3{
+        margin-left: 2rem;
+        margin-right: 2rem;
+        flex-direction: column;
+      }
+      .logo img{
+        width: 420px;
+      }
+      .contact-section{
+        width: 100%;
+        height: 100%;
+        margin-left: 0rem;
+        margin-right: 0rem;
+      }
+      .form1, .form2{
+        margin-left: 1.5rem;
+       
+      }
+      label{
+        margin-left: 0rem;
+        margin-right: 0rem;
+      }
+      input[type="email"] {
+        width: 80%;
+      }
+      input[type="text"] {
+        width: 80%;
+      }
+      input[type="date"] {
+        width: 80%;
+      }
+      input[type="number"] {
+        width: 80%;
+      }
+      p{
+        margin-left: 0.2rem;
+      }
+     } 
+     @media (min-width:800px)and (max-width:1024px){
+     }
   
   
