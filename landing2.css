@@ -395,19 +395,64 @@ text-align: center;
 font-size: 30px;
 padding-top: 6rem;
 }
-.im-container{
-    background-color: white;
-    height: 40%;
-    margin-left: 20rem;
-    position: fixed;
-    float: left;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.customers h4{
+margin-left: 20rem;
+font-size: 20px;
 }
+
 .im-container p{
-    font-size: 20px;
+    font-size: 22px;
 }
+
+.im-container img{
+    margin-left: 23rem;
+}
+
+.im-container{
+        height: 800px;
+        width: 1200px;
+        position: relative;
+        float: left; 
+        display: block;
+    }
+
+    .slided-images{
+        width: 3600px;
+        height: 800px;
+        margin: 0 0 0 -2400px;
+        position: relative;
+        animation-name: slided_animation;
+        animation-duration: 12s;
+        animation-iteration-count: infinite;
+        animation-direction: normal;
+        animation-play-state: running;
+    }
+    
+
+    @keyframes slided_animation{
+        0% {left: 0px;}
+        10% {left: 0px;}
+        20% {left: 1200px;}
+        30% {left: 1200px;}
+        40% {left: 2400px;}
+        50% {left: 2400px;}
+        60% {left: 1200px;}
+        70% {left: 1200px;}
+        80% {left: 0px;}
+        90% {left: 0px;}
+        100% {left: 0px;}
+    }
+    
+
+    .slided-frame{
+        overflow: hidden;
+        height: 500px;
+        width: 60%;
+        margin-left: 40rem;
+        margin-right: 20rem;
+        margin-top: 1rem;
+        position: relative;
+    }
 
 
 @media (max-width: 750px) {
@@ -456,6 +501,8 @@ padding-top: 6rem;
     width: 250px;
     
 }
+
+
 .added-writeups{
     justify-content: flex-start;
     align-items: flex-start;
