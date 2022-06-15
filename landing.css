@@ -335,7 +335,7 @@ text-decoration: underline;
     flex-direction: column;
      flex-wrap: wrap;
      width: 50%; 
-     margin-left: 5rem;
+     margin-left: 0.1rem;
      margin-top: 6rem;
      align-content: right;
      font-family: 'Red Hat Display'sans-serif;
@@ -354,7 +354,7 @@ text-decoration: underline;
     color:#db353a;
     font-size: 3rem;
 }
-.added-image, .added-images{
+.added-image{
        display: flex;
        flex-direction: column;
         flex-wrap: wrap;
@@ -363,12 +363,30 @@ text-decoration: underline;
         margin-top: 1rem;
         font-family: 'Red Hat Display', sans-serif;
 }
-.added2, .added3{
+
+.added-imagess{
+    display: flex;
+    flex-direction: column;
+     flex-wrap: wrap;
+     width: 60%; 
+     margin-left: 30rem;
+     margin-right: 10rem;
+     margin-top: 1rem;
+     font-family: 'Red Hat Display', sans-serif;
+}
+.added2{
     display: flex;
     margin-top: 6rem;
     flex-direction: row;
     width: 100%;
     margin-left: 10rem;
+}
+
+.added3{
+    display: flex;
+    margin-top: 6rem;
+    flex-direction: row;
+    width: 100%;
 }
 .added-writeups{
     display: flex;

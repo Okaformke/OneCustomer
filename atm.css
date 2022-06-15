@@ -238,6 +238,9 @@ p{
       width: 80%;
     }
 
+    form #cards{
+      width: 100%;
+    }
     p{
       margin-left: 0.5rem;
       margin-left: 0.5rem;
@@ -252,7 +255,7 @@ p{
         flex-direction: column;
       }
       .logo img{
-        width: 420px;
+        width: 412px;
       }
       .contact-section{
         width: 100%;
@@ -262,7 +265,9 @@ p{
       }
       .form1, .form2{
         margin-left: 1.5rem;
-       
+      }
+      form #cards{
+        width: 100%;
       }
       label{
         margin-left: 0rem;
