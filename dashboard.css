@@ -68,7 +68,6 @@ body{
 }
 .side-nav{
     height: 100%;
-    width: 20%;
     z-index: 1;
     top: 0;
     left: 0;
@@ -77,7 +76,7 @@ body{
 }
 .side-nav{
    border: 1px solid gainsboro;
-   width: 220px;
+    width: 230px;
     border-radius: 5px;
     border-top: hidden;
     padding-left: 2rem;
@@ -86,7 +85,6 @@ body{
 .side-nav div{
     width: 20rem;
 }
-
 .btnn , .btn{
     border: 1px solid #f8f8ff;
     border-radius:5px;
@@ -96,9 +94,10 @@ body{
     margin-bottom: 0.5rem; 
     color: black; 
     background-color: #ffff;
-    padding: 8px 8px;
+    padding: 10px;
     font-family: 'Red Hat Display' sans-serif;
-    font-weight: 600;   
+    font-weight: 600;
+    text-align: start;
 }
 .bto{
     background-color: black;
