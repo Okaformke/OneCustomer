@@ -9,7 +9,7 @@
 </head>
 <body>
     <div class="logo">
-        <img src="asset/SterlingA.png" alt="sterling logo" width="200px">
+        <img src="asset/STERLING-LOGO.png" alt="sterling logo" width="200px">
         <h2>Welcome <span>Nkem</span>...</h2>
 </div>
      <marquee>We apologise for any inconvieniences this complaint may have caused you but be rest assured that we will do all we can to resolve it within the stipulated timeline...</marquee>
@@ -18,31 +18,35 @@
              <div class="form1">
                 <form action="OneCustomer.html">
                     
-                   <label for="card">Source Account</label>
+                   <label for="card">Source Account&nbsp;&nbsp;</label>
                 <select id="cards" name="cardlist" form="cardform">
                    <option value="account">0049875202</option>
                     <option value="account">0058421649</option>
                    </select><br></br>
            
-               <label for="Branch">Branch name &nbsp;&nbsp;</label>
-               <input type="text" placeholder="Zik-Avenue Awka" name="text"><br></br>
+               <label for="Branch">Account Name&nbsp;&nbsp;&nbsp;</label>
+               <input type="text" placeholder="Full Name" value="Nkem Okafor" name="text"><br></br>
+
+
+               <label for="Branch">Branch name &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+               <input type="text" placeholder="Branch" value="Zik Avenue" name="text"><br></br>
                
-               <label for="email">Email address &nbsp;&nbsp;</label>
-               <input type="email" placeholder="switconfessor@gmail.com" name="email"><br></br>
+               <label for="email">Email address&nbsp;&nbsp;&nbsp;&nbsp;</label>
+               <input type="email" placeholder="Enter Email Address" value="nkem.okafor@gmail.com"name="email"><br></br>
                   
                
             
-           <label for="phone">Phone number &nbsp;</label>
-               <input type="number" placeholder="08022558248" name="number"><br></br>
+           <label for="phone">Phone number&nbsp;&nbsp;&nbsp;</label>
+               <input type="number" placeholder="08022558248" value="09067589021" name="number"><br></br>
            
-               <label for="card">Select card type</label>
+               <label for="card">Select card type&nbsp;</label>
                <select id="cards" name="cardlist" form="cardform">
                    <option value="Verve">Verve</option>
                    <option value="Master">Master</option>
                    <option value="Visa">Visa</option>
                </select><br></br>
    
-               <label for="phone">Card Number &nbsp;&nbsp;</label>
+               <label for="phone">Card Number&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
                <input type="number" placeholder="Enter the first six and last four digit" name="number" cols="10"><br></br>
                 
               
@@ -52,8 +56,8 @@
              <div class="form2">
                 <form action="OneCustomer.html">  
    
-               <label for="card">Select the dispute form &nbsp;&nbsp;&nbsp;&nbsp;</label>
-               <select id="cards" name="cardlist" form="cardform">
+               <label for="card">Select the dispute form&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+               <select id="cardS" name="cardlist" form="cardform">
                    <option value="Verve">ATM</option>
                    <option value="Master">POS</option>
                    <option value="Verve">USSD</option>
@@ -62,8 +66,8 @@
                </select> <br></br>    
    
    
-               <label for="card">Select the dispute type &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
-               <select id="cards" class="dispute" name="cardlist" form="cardform">
+               <label for="card">Select the dispute type&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+               <select id="cardss" class="dispute" name="cardlist" form="cardform">
                    <option value="Verve">On-us-Atm-cash-withdrawal (Sterling Bank)</option>
                    <option value="Master">Not-on-us Atm-cash-withdrawal (Other Bank)</option>
                    <option value="Visa">On-us Atm-fund transfer (Sterling Bank)</option>
@@ -82,23 +86,23 @@
                    <option value="Visa">Fraud</option>
                </select> <br></br>
                
-               <label for="email">Amount (Figures only) &nbsp;&nbsp;&nbsp;&nbsp;</label>
+               <label for="email">Amount (Figures only)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
                <input type="number" class="dispute" placeholder="Enter amount" name="number"><br></br>
    
            
    
-           <label for="date">Select Date of transaction &nbsp;</label>
+           <label for="date">Select Date of transaction&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
            <input type="date" placeholder="Enter date of transaction" name="date"><br></br> 
    
-               <label for="text">Location of transaction &nbsp;&nbsp; &nbsp;</label>
+               <label for="text">Location of transaction &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
                <input type="text" class="dispute" placeholder="Enter location of transaction" name="text"><br></br>
    
-               <label for="text">Wrong Beneficiary details</label>
+               <label for="text">Wrong Beneficiary details &nbsp;&nbsp;&nbsp;&nbsp;</label>
                <input type="text" placeholder="Enter Name & Bank" name="number"><br></br>
    
            
    
-               <label for="phone">Wrong Beneficiary account</label>
+               <label for="phone">Wrong Beneficiary account &nbsp;&nbsp;</label>
                <input type="number" placeholder="Enter account number" name="number"><br></br>
            
              
@@ -108,7 +112,12 @@
     <div>
         <form action="OneCustomer.html">
         <p>
-            I/We <input type="text" placeholder="Enter Name" name="text"> authorize Sterling Bank Plc to recall funds transferred with details above as it was done in error by me/us. The beneficiary is known/unknown to me/us.
+            I/We <input type="text" placeholder="Enter Name" name="text"> authorize Sterling Bank Plc to recall funds transferred with details above as 
+            it was done in error by me/us. The beneficiary is
+            <select id="cards" name="cardlist">
+                <option value="Verve">Known</option>
+                <option value="Verve">Unknown</option>
+            </select> to me/us.
             </p>
             <p>
                <span>For your information, we have listed the timelines for the resolution of your complaints which takes effects from the moment your complaint is received by the Bank. Please note that weekends (Saturdays and Sundays) have been taken into consideration within these timelines.</span>
@@ -130,7 +139,7 @@
             </div><br></br>
 
             
-            <a href="">Send OTP</a>
+            <a class="sendo" href="">Send OTP</a>
             <input type="number" id="bto" placeholder="Enter OTP" name="number">
             <button type="submit" class="btn">Proceed</button>
             <button type="submit" id="book">Submit</button>
