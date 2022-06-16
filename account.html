@@ -9,8 +9,8 @@
 </head>
 <body>
     <div class="logo">
-        <img src="asset/SterlingA.png" alt="sterling logo" width="200px">
-        <h2>Welcome <span>Nkem</span>...</h2>
+        <img src="asset/STERLING-LOGO.png" alt="sterling logo" width="200px">
+        <h2 class="well">Welcome <span>Olayemi</span>...</h2>
 </div>
      <marquee>Update your account details with just a click-away at your<span> convienience!!!</span></marquee>
      <h2>Please fill the appropraite details specific to your request....</h2>
@@ -20,45 +20,50 @@
                         <div class="form1">
                             <form action="OneCustomer.html">
                                    
-            <label for="text">Branch Name&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
-            <input type="text" placeholder="Enter Branch name" name="text"><br></br>
+            
+            <label for="account">Select Account &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+        <select id="account" name="accountlist" form="accountform">
+           <option value="account">0049875202</option>
+            <option value="account">0058421649</option>
+           </select><br></br>
            
+<<<<<<< HEAD
             <label for="number"> Enter BVN</label>
             <input type="number" placeholder="22224891273" name="number"><br></br>
+=======
+            <label for="number"> Enter BVN &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input type="number" placeholder="Enter BVN" value="22233445567" name="number"><br></br>
+>>>>>>> 40a25e1ab45c736feee08d36b9573c43eba2d864
             
             
-            <label for="date">Change Date of Birth</label>
-            <input type="date" placeholder="Enter old date of birth" name="date of birth"><br></br>
+            <label for="date">Date of Birth&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input type="text" placeholder="Enter old date of birth" value="01 / 01 /1990" name="date of birth"><br></br>
              
             
-                <label for="text">Change account name</label>
-            <input type="text" placeholder="Enter old account name" name="text"><br></br>
+                <label for="text">Account Name &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input type="text" placeholder="Enter old account name" value="Olayemi Adeyemi" name="text"><br></br>
             
             
-            <label for="text">Change my address&nbsp;&nbsp;&nbsp;</label>
-            <input type="text" placeholder="Enter old address" name="request"><br></br>
+            <label for="text">Residential Address&nbsp;</label>
+            <input type="text" placeholder="Enter old address" value="1 Old Bank Road, Akure" name="request"><br></br>
 
             
-            <label for="text">Change my Email&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
-            <input type="text" placeholder="Enter old Email" name="text"><br></br>
+            <label for="text">Email Address &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input type="email" placeholder="Enter old Email" value="olayemi.adeyemi@gmail.com" name="text"><br></br>
             
-            <label for="text">Change next of kin&nbsp;&nbsp;&nbsp;</label>
-            <input type="text" placeholder="Enter old next of kin details" name="next of kin"><br></br>
+            <label for="text">Next of Kin&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input type="text" placeholder="Enter old next of kin details" value="Queen Princess" name="next of kin"><br></br>
         
         </form>
         </div>
     <div class="form2">
        <form action="OneCustomer.html"> 
-       
-       
-       
-        <label for="account">Select Account type</label>
-        <select id="account" name="accountlist" form="accountform">
-           <option value="account">0049875202</option>
-            <option value="account">0058421649</option>
-           </select><br></br>
+
+        <label for="text">Branch Name&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label> 
+            <input type="text" placeholder="Enter Branch name" value="Akure Main" name="text"><br></br>
+
             
-           <label for="account">Select next-of-kin Relationship</label>
+           <label for="account">Kin's Relationship &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
             <select id="pen" name="kinlist" form="kinform">
                 <option value="Siblings">Siblings</option>
                 <option value="Spouse">Spouse</option>
@@ -66,19 +71,19 @@
                 <option value="others">Others</option>
             </select><br></br>
             
-            <label for="date">New Date of Birth&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <label for="date">New Date of Birth&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
             <input type="date" placeholder="Enter new date of birth" name="date" id="ace"><br></br>
             
-            <label for="text"> Change account name</label>
+            <label for="text"> Change Account Name&nbsp;</label>
             <input type="text" placeholder="Enter new account name" name="text"><br></br>
            
-            <label for="text">Change my address&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <label for="text">Change my Address&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
            <input type="text" placeholder="Enter new address" name="request" id="ace"><br></br>
-           <label for="text">Change my Email&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+           <label for="text">Change my Email&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
            <input type="text" placeholder="Enter new Email" name="text"><br></br>
             
            
-            <label for="text">Change next of kin&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <label for="text">Change next of kin &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
             <input type="text" placeholder="Enter new next of kin details" name="next of kin"><br></br>
             
 
@@ -89,8 +94,13 @@
 <form action="OneCustomer.html">
             <p> I have attached the following supporting documents:</p>
             
+<<<<<<< HEAD
             <div class="p">
                 <label for="valid" >Valid means of identification</label>
+=======
+            <div>
+                <p><b> Valid means of identification</b></p>
+>>>>>>> 40a25e1ab45c736feee08d36b9573c43eba2d864
                  <div>
                 <input type="radio" id="valid" name="valid means" value="valid">
                     <label for="voter">Voters card</label>
@@ -103,17 +113,23 @@
                 <input type="number" id="sa"   placeholder="Enter ID No" name="number">
                  </div>
             </div>
+<<<<<<< HEAD
             <div class="radio">
             <input type="radio" id="birth" name="valid means" value="valid">
+=======
+            <div>
+            <input type="radio" id="birth" name="v" value="valid">
+>>>>>>> 40a25e1ab45c736feee08d36b9573c43eba2d864
             <label for="intl">Birth Certificate</label>
-            <input type="radio" id="marraige" name="valid means" value="valid">
-            <label for="marraige">Marraige Certificate</label>
-            <input type="radio" id="news" name="valid means" value="valid">
+            <input type="radio" id="marraige" name="va" value="valid">
+            <label for="marraige">Marriage Certificate</label>
+            <input type="radio" id="news" name="val" value="valid">
             <label for="news">Newspaper Publication</label>
-            <input type="radio" id="court" name="valid means" value="valid">
+            <input type="radio" id="court" name="vali" value="valid">
             <label for="court">Court Affidavit</label>
-            <input type="radio" id="Utility Bill" name="valid means" value="valid">
+            <input type="radio" id="Utility Bill" name="valid" value="valid">
             <label for="intl">Utility Bill</label>
+            <br> <br>
             <div>
                 <div class="reason">
                 <label for="Reason">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Reason for change</label>
@@ -130,7 +146,7 @@
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<label for="files">Select Files:</label>
                 <input type="file" id="Files" name="files" multiple><br><br>
             </div>
-            <a href="">Send OTP</a>
+            <a class="sendo" href="">Send OTP</a>
             <input type="number" id="bto" placeholder="Enter OTP" name="number">
             <button type="submit" class="btn">Proceed</button>
             <button type="submit" id="cup">Submit</button>

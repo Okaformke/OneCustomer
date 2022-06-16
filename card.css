@@ -23,9 +23,7 @@ body{
     background-size: 18%;
 }
 .container{
-  background-color: #f2f2f2;
   padding: 5px 20px 15px;
-  border: 1px solid lightgrey;
   border-radius: 3px;
 }
 h3{
@@ -44,14 +42,15 @@ marquee{
   margin-top: 5rem;
 }
 .form-wrapper{
-  background-color: #ffff;
+  background-color: #fff;
   width: 50rem;
   height: 70rem;
   border-radius: 2rem;
   padding: 1.5rem 2rem;
   border: 1px solid red;
+  box-shadow: 1rem 1rem 2rem 1rem #F1EEE9;
   margin-top: 10px;
-  margin-left: 40rem
+  margin-left: 40rem;
   
 }
 form{
@@ -72,18 +71,20 @@ input{
   border: 1px solid #cccc;
   height: 3rem;
   padding: 0.5rem;
+  background-color: #f7f7f7;
 }
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
-#cards{
+#cards , #cardS{
   width: 80%;
   border-radius: 8px;
   border: 1px solid #cccc;
   height: 3rem;
   padding: 0.5rem;
+  background-color: #f7f7f7;
 }
 .m-signature-pad--body canvas {
   position: relative;
@@ -102,7 +103,7 @@ button{
   border: none;
   color: white;
   background-color: black;
-  margin-left: 7rem;
+  margin-left: 5rem;
   margin-top: 1rem;
 
 }
@@ -113,25 +114,23 @@ button{
   border-radius: .5px;
   border: none;
   color: white;
-  margin-left: 7rem;
+  margin-left: 5rem;
   cursor: pointer;
 }
 #rat{
   padding: 0.8rem;
   width: 60%;
   align-items: center;
-  border-radius: .5px;
+  border-radius: 1px;
   border: none;
   color: white;
-  margin-left: 7rem;
+  margin-left: 5rem;
   cursor: pointer;
+  background-color: black;
 }
 .btnn{
   background-color: firebrick;
   margin-top: 1rem;
-}
-#rat{
-  background-color: black;
 }
 button:hover{
   color: red;
@@ -143,7 +142,8 @@ button:hover{
   font-size: 15px;
   color: black;
 }
-
-
+.sendo:hover {
+  color: red;
+}
 
 
