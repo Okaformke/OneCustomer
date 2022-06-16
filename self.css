@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,900;1,700&family=Red+Hat+Display&display=swap');
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+.container {
+    background-image: url('assets/thumbnail_advisory\ \(1\).jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    height: 100vh;
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+
+h1{    
+font-size: 5rem;
+color:#fff;
+margin-top: 500px;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    text-align: center;  
+}
+
+li{
+    background-color: transparent;
+    width: 160px;
+    height: 30px;
+    border-radius: 10px;
+    font-size: 22px;
+    font-weight: 900;
+    list-style-type: none;
+    margin: 40px;
+}
+
+ li:hover{
+    background-color: transparent;
+    transition-delay: 0.15s;
+    border: #fff solid 1px;
+    border-radius: 10px;
+ }
+
+ a{
+    color: #fff;
+    text-decoration: none;
+}

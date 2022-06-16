@@ -3,6 +3,7 @@
 *::before,
 *::after{
     box-sizing: border-box;
+    font-family: 'Red Hat Display';
 }
 html{
     width: 100%;
@@ -50,7 +51,7 @@ body{
   .contact-section{
       display: flex;
       flex-direction: column;
-      background-color: #f2f2f2;
+      background-color: #fff;
       width: 95%;
       height: 95%;
       margin-left: 2.5rem;
@@ -59,7 +60,7 @@ body{
     
   }
   marquee{
-    color: red;
+    color: #fff;
     width: 60%;
     font-size: 20px;
     direction: left;
@@ -69,7 +70,7 @@ body{
     display: flex;
     display: block;
     flex-direction: column;
-    margin-left: 10rem;
+    margin-left: 8rem;
     margin-top: 2rem;
   }
   label{
@@ -84,13 +85,15 @@ body{
     height: 2rem;
     margin-bottom: 0.8rem; 
     margin-top: 1em;
+    background-color: #f7f7f7;
   }
   input[type="email"] {
     width: 20%;
     border-radius: 0.5px;
     border: 0.2px solid #cccc;
     height: 2rem;
-    margin-bottom: 0.8rem; 
+    margin-bottom: 0.8rem;
+    background-color: #f7f7f7; 
   }
   input[type="number"] {
     width: 20%;
@@ -99,6 +102,9 @@ body{
     height: 2rem;
     margin-bottom: 0.8rem; 
     margin-top: 1em;
+    background-color: #f7f7f7; 
+
+
   }
   input::-webkit-outer-spin-button,
   input::-webkit-inner-spin-button {
@@ -122,14 +128,16 @@ span{
     border: 0.2px solid #cccc;
     height: 1.8rem;
     margin-bottom: 0.5rem;
+    background-color: #f7f7f7; 
   }
   #text{
-    width: 20%;
+    width: 30%;
     border-radius: 0.5px;
     border: 0.2px solid #cccc;
     height: 1.8rem;
     margin-bottom: 0.5rem;
     margin-left: 1rem;
+    background-color: #f7f7f7; 
   }
   #btnn{
     padding: 0.5rem;
