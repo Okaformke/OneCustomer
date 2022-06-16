@@ -3,6 +3,7 @@
 *::before,
 *::after{
     box-sizing: border-box;
+    font-family: 'Red Hat Display';
 }
 html{
     width: 100%;
@@ -73,7 +74,7 @@ body{
     background-color: #f7f7f7;
   }
   marquee{
-    color: red;
+    color: #fff;
     width: 60%;
     font-size: 20px;
     direction: left;
