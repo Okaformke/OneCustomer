@@ -192,13 +192,16 @@ p{
   .sendo:hover {
     color: red;
   }
+  .sendo{
+    margin-left: 0.5rem;
+  }
   
   .m-signature-pad--body canvas {
     position: relative;
     left: 0;
     top: 0;
     border: 1px solid lightgray;
-    margin-left: 5rem;
+    /* margin-left: 5rem; */
     margin-top: 1rem;
   }
   #bto{
