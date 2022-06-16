@@ -8,42 +8,44 @@
     <link rel="stylesheet" href="cheque.css">
 </head>
 <body>
-   <h3>Welcome <span>Nkem...</span></h3>
+   <h3>Welcome <span>Ubong...</span></h3>
      <marquee>Cheque at your doorstep? &nbsp;&nbsp;&nbsp;Let's get started right-away!!!</marquee>
+     <hr>
      <div class="container">
                     <div class="form-wrapper">
                         <form action="OneCustomer.html">
 
-            <label for="account"><b>Source account &nbsp;&nbsp;&nbsp;<span>(Current only)</span></b></label>
+            <label for="account"><b>Source Account &nbsp;&nbsp;&nbsp;<span>(Current only)</span></b></label>
              <select id="cards" name="cardlist" form="cardform">
                 <option value="account">0049875202</option>
                  <option value="account">0058421649</option>
                 </select><br></br>
                 
             
-            <label for="card"><b>Cheque size:</b></label>
-            <select id="cards" name="cardlist" form="cardform">
-                <option value="plus">50 leaves</option>
-                <option value="Master">100 leaves</option>
+            <label for="card"><b>Number of Booklet</b></label>
+            <select id="cardS" name="cardlist" form="cardform">
+                <option value="plus">One</option>
+                <option value="Master">Two</option>
             </select><br></br>
             
             <label for="Branch"><b>Branch name</b></label>
-            <input type="text" placeholder="Enter Branch name" name="text"><br></br>
+            <input type="text" placeholder="Enter Branch name" value="Ilupeju" name="text"><br></br>
             
             <label for="email"><b>Email address</b></label>
-            <input type="email" placeholder="Enter Email" name="email"><br></br>
+            <input type="email" placeholder="Enter Email" value="ubong.effiong@gmail.com" name="email"><br></br>
             
             <label for="phone"><b>Phone number</b></label>
-            <input type="number" placeholder="Enter Phone number" name="number"><br></br>
+            <input type="number" placeholder="Enter Phone number" value="07067898067" name="number"><br></br>
         
             <div class="m-signature-pad--body">
-                <canvas id="myCanvas" width="200" height="100"></canvas><br></br>
+                <canvas id="myCanvas" width="300" height="100"></canvas><br></br>
                 <label for="myCanvas"><b>e-signature (optional)</b></label><br></br>
             </div><br></br>
             
             
-            <a href=""><b>Send OTP</b></a>
-            <input type="number" class="bto" placeholder="Enter OTP" name="number"><br></br>
+            <a class="sendo" href=""><b>Send OTP</b></a>
+            <input type="number" class="bto" placeholder="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;Enter OTP" name="number"><br></br>
             <button type="button" class="btnn">Proceed</button>
             <button type="submit" id="pen">Submit</button>
           </form>

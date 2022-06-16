@@ -15,7 +15,10 @@ html, body{
     min-height: 100vh;
     max-width: 100vw; 
    } 
-
+.sendo:hover {
+    color: red;
+  }
+  
 body{
     width: 100%;
     background-image: url(asset/black.jpg);
@@ -45,7 +48,7 @@ body{
   margin-right: 25rem;
 }
   .contact-section{
-      background-color: #f2f2f2;
+      background-color: #fff;
       width: 95%;
       height: 95%;
       margin-left: 2.5rem;    
@@ -56,6 +59,7 @@ body{
     border: 0.2px solid #cccc;
     height: 2rem;
     margin-bottom: 0.8rem;
+    background-color: #f7f7f7;
     
   }
   .form1, .form2{
@@ -71,6 +75,7 @@ body{
     border: 0.2px solid #cccc;
     height: 2rem;
     margin-bottom: 0.8rem;
+    background-color: #f7f7f7;
   }
   marquee{
     color: red;
@@ -104,13 +109,15 @@ body{
     border: 0.2px solid #cccc;
     height: 2rem;
     margin-bottom: 0.8rem;
+    background-color: #f7f7f7;
   }
 #title{
-    width: 62%;
+    width: 50%;
     border-radius: 0.5px;
     border: 0.2px solid #cccc;
     height: 2rem;
     margin-bottom: 0.8rem;
+    background-color: #f7f7f7;
   }
 #card{
     width: 50%;
@@ -118,13 +125,28 @@ body{
     border: 0.2px solid #cccc;
     height: 2rem;
     margin-bottom: 0.8rem;
+    background-color: #f7f7f7;
   }
-#title1{
-    width: 40%;
+#title1 {
+    width: 50%;
     border-radius: 0.5px;
     border: 0.2px solid #cccc;
     height: 2rem;
     margin-bottom: 0.8rem;
+    background-color: #f7f7f7;
+  }
+  .box {
+    margin-left: -8rem;
+  }
+#titled {
+  margin-left: -60rem;
+  
+    /* width: 44%; */
+    /* border-radius: 0.5px; */
+    /* border: 0.2px solid #cccc; */
+    /* height: 2rem; */
+    /* margin-bottom: 0.8rem; */
+    /* background-color: #f7f7f7; */
   }
 #title2{
     width: 50%;
@@ -132,6 +154,7 @@ body{
     border: 0.2px solid #cccc;
     height: 2rem;
     margin-bottom: 0.8rem;
+    background-color: #f7f7f7;
   }
   .biro{
     width: 60%;
@@ -157,6 +180,9 @@ p{
   }
   .label{
     margin-left: 4.5rem;
+  }
+  #cards {
+    background-color: #f7f7f7;
   }
   .m-signature-pad--body canvas {
     position: relative;

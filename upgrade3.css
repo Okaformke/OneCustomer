@@ -14,7 +14,12 @@ html, body{
     min-height: 100vh;
     max-width: 100vw; 
    } 
-
+.instruct {
+  color: red;
+}
+.sendo:hover {
+  color: red;
+}
 body{
     width: 100%;
     background-image: url(asset/black.jpg);
@@ -44,7 +49,7 @@ body{
   margin-right: 25rem;
 }
   .contact-section{
-      background-color: #f2f2f2;
+      background-color: #fff;
       width: 95%;
       height: 95%;
       margin-left: 2.5rem;    
@@ -103,27 +108,31 @@ body{
     border: 0.2px solid #cccc;
     height: 2rem;
     margin-bottom: 0.8rem;
+    background-color: #f7f7f7;
   }
 #title{
-    width: 62%;
-    border-radius: 0.5px;
-    border: 0.2px solid #cccc;
-    height: 2rem;
-    margin-bottom: 0.8rem;
-  }
-#card{
     width: 50%;
     border-radius: 0.5px;
     border: 0.2px solid #cccc;
     height: 2rem;
     margin-bottom: 0.8rem;
+    background-color: #f7f7f7;
   }
-#title1{
-    width: 59%;
+#cards , #card {
+    width: 50%;
     border-radius: 0.5px;
     border: 0.2px solid #cccc;
     height: 2rem;
     margin-bottom: 0.8rem;
+    background-color: #f7f7f7;
+  }
+#title1{
+    width: 50%;
+    border-radius: 0.5px;
+    border: 0.2px solid #cccc;
+    height: 2rem;
+    margin-bottom: 0.8rem;
+    background-color: #f7f7f7;
   }
   .biro{
     width: 60%;

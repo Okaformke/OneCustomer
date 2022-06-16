@@ -9,60 +9,71 @@
 </head>
 <body>
     <div class="logo">
-        <img src="asset/SterlingA.png" alt="sterling logo" width="200px">
-        <h2>Welcome <span>Nkem...</span></h2>
+        <img src="asset/STERLING-LOGO.png" alt="sterling logo" width="200px">
+        <h2>Welcome <span>Ifeoma...</span></h2>
         <marquee>Visit the Bank no more...Upgrade your account with documents at ease!!!</marquee>
-        <h2>(Cont)....Please fill the form appropraitely....</h2>
+        <h2>(Continuation)....Please fill the form appropraitely....</h2>
      <div class="contact-section">
                     <div class="form-wrapper">
              <div class="form1">
                 <form action="OneCustomer.html">
+
+                    <label for="account">Source Account &nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                    <select id="cards" name="cardlist" form="cardform">
+                       <option value="account">0049875202</option>
+                        <option value="account">0058421649</option>
+                       </select><br></br>
                     
-                  <label for="name">Name of account holder &nbsp;</label>
+                  <label for="name">Name of account holder &nbsp;&nbsp;</label>
                   <input type="text" placeholder="Enter your name" name="name"><br><br>
              
   
-                  <label for="date">Enter Date of Birth&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                  <label for="date">Enter Date of Birth&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
                   <input type="date" placeholder="Enter Date of Birth" name="date of birth"><br><br>
              
-                  <label for="number">Enter your BVN &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                  <label for="number">Enter your BVN &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
               <input type="number" placeholder="Enter BVN" name="number"><br><br>
           
   
         
-              <label for="name">Name of Parent/Guardian</label>
+              <label for="name">Name of Parent/Guardian&nbsp;</label>
                   <input type="text" placeholder="Enter your name" name="name"><br><br>
-                  
-                  <label for="title1">I consent to upgrading this account</label>
-                  <select id="title1" name="consentlist" form="consentform">
-                      <option value="product">I agree</option>
-                      <option value="product">I disagree</option>
-                      </select><br><br>
               
-                  <label for="phone">Enter Phone number &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                  <label for="phone">Enter Phone number &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
                <input type="number" placeholder="Enter Phone number" name="number"><br></br>
+
   
-                         <label for="title">Select new product type</label>
+                         <label for="title">Select new product type&nbsp;&nbsp;&nbsp;&nbsp;</label>
                <select id="card" name="accountlist" form="accountform">
                <option value="mr">Tier-2-Kia account</option>
                <option value="mrs">Regular-savings</option>
                <option value="mrs">Sterling-Plus</option>
                <option value="others">Student account</option>
                </select> <br><br>
-             
+               <br>
+               <label for="consent"><b>I consent to upgrading this account</b></label>
+               <input class="box" type="checkbox"><br></br>
               </form>
              </div>
              <div class="form2">
                 <form action="OneCustomer.html">  
-   
-               
+
+                    <label for="title">Any political affiliation? &nbsp; &nbsp;&nbsp;&nbsp;</label>
+                    <select id="title1" name="productlist" form="productform">
+                     <option value="product">No</option>
+                     <option value="product">Yes</option>
+                 </select><br><br>
+
+
                   <label for="title">Employment details&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
                   <select id="title2" name="productlist" form="productform">
                      <option value="product">Student</option>
-                     <option value="product">Employed</option>
-                  <label for="product">Self-employed</label>
-                  <label for="product">Retired</label>
-                  <label for="product">Others</label>
+                     <option value="product">Employee</option>
+                     <option value="product">Self-employed</option>
+                     <option value="product">Retired</option>
+                     <option value="product">Others</option>
               </select><br><br>
 
                   <label for="title">Annual salary/Income&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
@@ -75,28 +86,32 @@
                      <option value="product">30M-N99.9Million</option>
                   </select><br><br>
               
-                     <label for="text">Enter Employer's name&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                     <label for="text">Enter Employer's name&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
                      <input type="text" placeholder="Enter name "><br><br>
           
-                     <label for="text">Enter Employer's address&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                     <label for="text">Enter Employer's address&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
                      <input type="text" placeholder="Enter address " name="request" rows="3"><br><br>
               
-                     <label for="title">Do you have any political affiliation?&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
-                     <select id="title1" name="productlist" form="productform">
-                      <option value="product">No</option>
-                      <option value="product">Yes</option>
-                  </select><br><br>
 
-                  <label for="title">Input Next-of-kin-details&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                  <label for="title">Next-of-kin-Details&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
                   <input type="text" placeholder="Enter next of kin details" name="next of kin"><br><br>
-           
-                  <label for="title">Next-of-kin-R/ship</label>
+                  
+                  <label for="title">Kin's Relationship&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
                      <select id="title" name="productlist" form="productform">
                       <option value="product">Sibling</option>
                       <option value="product">Spouse</option>
                       <option value="product">Guardian</option>
                       <option value="product">Others</option>
-                  </select><br><br>   
+                  </select><br><br> 
+
+                   
+                  <!-- <label for="title1">I consent to upgrading this account</label>
+                  <select id="titled" name="consentlist" form="consentform">
+                      <option value="product">I agree</option>
+                      <option value="product">I disagree</option>
+                      </select><br><br> -->
+           
+                    
 
                 </form>
             </div>          
@@ -109,11 +124,12 @@
                         <label for="myCanvas" class="label">e-signature (optional)</label><br></br>
                     </div><br></br>
              
-                    <label for="files">Select Files:</label>
+                    <label for="files"> &nbsp;&nbsp;&nbsp;&nbsp; Select Files:</label>
                     <input type="file" id="Files" name="files" multiple><br><br>
                     
-                    <a href="">Send OTP</a>
-                    <input type="number" class="bto" placeholder="Enter OTP" name="number">
+                    <a class="sendo" href="">Send OTP</a>
+                    <input type="number" class="bto" placeholder="
+                Enter OTP" name="number">
                     <button type="button" class="btn">Proceed</button>
                     <button type="submit" id="book">Submit</button>
                     </form>
