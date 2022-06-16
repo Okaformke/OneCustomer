@@ -119,18 +119,13 @@ body{
        flex-direction: column;
         flex-wrap: wrap;
         width: 50%; 
-        font-size: 1.8rem;
         margin-left: 7.2rem;
         margin-top: 1rem;
         align-content: right;
-        font-family: 'Red Hat Display',sans-serif;
-        font-weight: 500;
-        line-height: 2.4rem;
 }
 .content h1{
     font-size: 40px;
-    font-weight: 500px;
-    line-height: 4rem;
+    font-weight: bold;
 
 }
 .content h2{
@@ -162,9 +157,6 @@ align-items: right;
     font-weight: 500;
     font-size: 40px;
 }
-.ghost-white{
-    background-color: #f9f9f9;
-}
 .features{
     display: flex;
     flex-direction: row;
@@ -174,7 +166,6 @@ align-items: right;
     margin-right: 6rem;
     flex-wrap: wrap;
     align-content: space-between; 
-    background-color: #f9f9f9;
 }
 .features div{
     justify-content: center;
@@ -184,11 +175,10 @@ align-items: right;
     align-content: center;
     flex-basis: 30%;
     margin-bottom: 6rem;
-    background-color: white;
 }
 .cus{
-    
-    color: black;
+    background-color: black;
+    color: white;
 }
 
 .features div:hover{
@@ -246,7 +236,7 @@ text-decoration: underline;
 .text h1{
       font-size: 30px;
       text-align: center;
-      font-family: 'Red Hat Display' sans-serif;
+      font-family: 'Red Hat Display', sans-serif;
       font-style: bolder;
       font-weight: 800;
       margin-bottom: 12rem;
@@ -255,7 +245,7 @@ text-decoration: underline;
   .text h2{
       font-size: 25px;
       text-align: center;
-      font-family: 'Red Hat Display' sans-serif;
+      font-family: 'Red Hat Display', sans-serif;
       font-style: bolder;
       font-weight: 800;
       line-height: 2.4rem; 
@@ -264,7 +254,7 @@ text-decoration: underline;
   .text p{
       font-size: 15px;
       text-align: center;
-      font-family: 'Red Hat Display' sans-serif;
+      font-family: 'Red Hat Display', sans-serif;
       font-style: bolder;
       font-weight: 800;
       line-height: 3.2rem; 
@@ -317,6 +307,7 @@ text-decoration: underline;
 
 /*--------END OF ANIMATION------*/
 
+
 .added{
     display: flex;
     margin-top: 6rem;
@@ -339,8 +330,28 @@ text-decoration: underline;
         word-spacing: 0.2em;
         line-height: 1.8rem;
 }
+ .added-writeup1{
+    display: flex;
+    flex-direction: column;
+     flex-wrap: wrap;
+     width: 50%; 
+     margin-left: 0.1rem;
+     margin-top: 6rem;
+     align-content: right;
+     font-family: 'Red Hat Display'sans-serif;
+     font-style: normal;
+     font-weight: 500;
+     font-size: 1.5rem;
+     word-spacing: 0.2em;
+     line-height: 1.8rem;
+}
 .added-writeup h2{
     color:#D61c5B;
+    font-size: 3rem;
+}
+
+.added-writeup1 span{
+    color:#db353a;
     font-size: 3rem;
 }
 .added-image{
@@ -352,12 +363,30 @@ text-decoration: underline;
         margin-top: 1rem;
         font-family: 'Red Hat Display', sans-serif;
 }
+
+.added-imagess{
+    display: flex;
+    flex-direction: column;
+     flex-wrap: wrap;
+     width: 60%; 
+     margin-left: 30rem;
+     margin-right: 10rem;
+     margin-top: 1rem;
+     font-family: 'Red Hat Display', sans-serif;
+}
 .added2{
     display: flex;
     margin-top: 6rem;
     flex-direction: row;
     width: 100%;
     margin-left: 10rem;
+}
+
+.added3{
+    display: flex;
+    margin-top: 6rem;
+    flex-direction: row;
+    width: 100%;
 }
 .added-writeups{
     display: flex;
@@ -396,63 +425,63 @@ font-size: 30px;
 padding-top: 6rem;
 }
 .customers h4{
-margin-left: 20rem;
-font-size: 20px;
-}
-
-.im-container p{
-    font-size: 22px;
-}
-
-.im-container img{
-    margin-left: 23rem;
-}
-
-.im-container{
-        height: 800px;
-        width: 1200px;
-        position: relative;
-        float: left; 
-        display: block;
-    }
-
-    .slided-images{
-        width: 3600px;
-        height: 800px;
-        margin: 0 0 0 -2400px;
-        position: relative;
-        animation-name: slided_animation;
-        animation-duration: 12s;
-        animation-iteration-count: infinite;
-        animation-direction: normal;
-        animation-play-state: running;
+    margin-left: 20rem;
+    font-size: 20px;
     }
     
-
-    @keyframes slided_animation{
-        0% {left: 0px;}
-        10% {left: 0px;}
-        20% {left: 1200px;}
-        30% {left: 1200px;}
-        40% {left: 2400px;}
-        50% {left: 2400px;}
-        60% {left: 1200px;}
-        70% {left: 1200px;}
-        80% {left: 0px;}
-        90% {left: 0px;}
-        100% {left: 0px;}
+    .im-container p{
+        font-size: 22px;
     }
     
-
-    .slided-frame{
-        overflow: hidden;
-        height: 500px;
-        width: 60%;
-        margin-left: 40rem;
-        margin-right: 20rem;
-        margin-top: 1rem;
-        position: relative;
+    .im-container img{
+        margin-left: 23rem;
     }
+    
+    .im-container{
+            height: 800px;
+            width: 1200px;
+            position: relative;
+            float: left; 
+            display: block;
+        }
+    
+        .slided-images{
+            width: 3600px;
+            height: 800px;
+            margin: 0 0 0 -2400px;
+            position: relative;
+            animation-name: slided_animation;
+            animation-duration: 12s;
+            animation-iteration-count: infinite;
+            animation-direction: normal;
+            animation-play-state: running;
+        }
+        
+    
+        @keyframes slided_animation{
+            0% {left: 0px;}
+            10% {left: 0px;}
+            20% {left: 1200px;}
+            30% {left: 1200px;}
+            40% {left: 2400px;}
+            50% {left: 2400px;}
+            60% {left: 1200px;}
+            70% {left: 1200px;}
+            80% {left: 0px;}
+            90% {left: 0px;}
+            100% {left: 0px;}
+        }
+        
+    
+        .slided-frame{
+            overflow: hidden;
+            height: 500px;
+            width: 60%;
+            margin-left: 40rem;
+            margin-right: 20rem;
+            margin-top: 1rem;
+            position: relative;
+        }
 
 
 @media (max-width: 750px) {
@@ -501,8 +530,6 @@ font-size: 20px;
     width: 250px;
     
 }
-
-
 .added-writeups{
     justify-content: flex-start;
     align-items: flex-start;

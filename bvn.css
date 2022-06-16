@@ -67,9 +67,8 @@ html, body{
   }
   
   .container {
-    background-color: #f2f2f2;
+    background-color: #fff;
     padding: 5px 20px 15px 20px;
-    border: 1px solid lightgrey;
     border-radius: 3px;
   }
   
@@ -79,6 +78,7 @@ html, body{
     padding: 12px;
     border: 1px solid #ccc;
     border-radius: 3px;
+    background-color: #f7f7f7;
   }
   input[type=date] {
     width: 100%;
@@ -86,12 +86,14 @@ html, body{
     padding: 12px;
     border: 1px solid #ccc;
     border-radius: 3px;
+    background-color: #f7f7f7;
   }
   input[type=number] {
     width: 50%;
     padding: 3px;
     border: 1px solid #ccc;
     height: 1.5rem;
+    background-color: #f7f7f7;
   }
   #title1{
     width: 100%;
@@ -99,6 +101,7 @@ html, body{
     padding: 12px;
     border: 1px solid #ccc;
     border-radius: 3px;
+    background-color: #f7f7f7;
   }
   
   label {
@@ -180,6 +183,7 @@ html, body{
     border: 0.2px solid #cccc;
     height: 1.8rem;
     margin-bottom: 0.5rem;
+    background-color: #f7f7f7;
   }
   #title2{
     width: 95%;
@@ -188,7 +192,13 @@ html, body{
     height: 1.8rem;
     margin-bottom: 0.5rem;
     margin-left: 1.0rem;
+    background-color: #f7f7f7;
   }
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
   /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other (and change the direction - make the "cart" column go on top) */
   @media (max-width: 800px) {
     .row {

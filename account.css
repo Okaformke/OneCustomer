@@ -127,8 +127,8 @@ body{
     height: 2rem;
     margin-bottom: 0.8rem; 
   }
-  input[type="radio"] {
-    margin-left: 5rem;
+  .radio{
+    margin-left: 4rem;
   }
   input[type="date"] {
     width: 40%;
@@ -151,6 +151,9 @@ body{
 }
 p{
   margin-left: 5rem;
+}
+.p{
+  margin-left: 4.2rem;
 }
   .form1 #account{
     width: 40%;
@@ -264,14 +267,17 @@ input[type="date"] {
 .form2 #pen{
   width: 35%;
 }
-p{
-  margin-left: 0.2rem;
-}
-input[type="radio"] {
+p,  .p{
   margin-left: 0.2rem;
 }
 #sa{
   width: 33%;
+}
+.reason{
+  margin-top: 3rem;
+}
+.radio{
+  margin-left: 0.2rem;
 }
 #valid{
   margin-left: 0.2rem;
@@ -320,12 +326,10 @@ input[type="radio"] {
   .form2 #pen{
     width: 35%;
   }
-  p{
+  p, .p{
     margin-left: 0.2rem;
   }
-  input[type="radio"] {
-    margin-left: 0.2rem;
-  }
+
   #sa{
     width: 33%;
   }
