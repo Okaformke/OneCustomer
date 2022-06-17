@@ -73,8 +73,8 @@ input{
   width: 80%;
   border-radius: 8px;
   border: 1px solid #cccc;
-  height: 3rem;
-  padding: 0.5rem;
+  height: 2.5rem;
+  padding: 0.2rem;
   background-color: #f7f7f7;
 }
 input::-webkit-outer-spin-button,
@@ -86,8 +86,8 @@ input::-webkit-inner-spin-button {
   width: 80%;
   border-radius: 8px;
   border: 1px solid #cccc;
-  height: 3rem;
-  padding: 0.5rem;
+  height: 2.5rem;
+  padding: 0.2rem;
   background-color: #f7f7f7;
 }
 .m-signature-pad--body canvas {

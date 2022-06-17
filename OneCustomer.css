@@ -3,6 +3,7 @@
 *::before,
 *::after{
     box-sizing: border-box;
+    font-family: 'Red Hat Display';
 }
 html{
     width: 100%;
@@ -18,7 +19,6 @@ html, body{
 
 body{
     width: 100%;
-    font-family: 'Red Hat Display', sans-serif;
     background-color: #f8fff8;
 }
 .logo{

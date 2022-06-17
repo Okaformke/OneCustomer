@@ -50,7 +50,7 @@ marquee{
   padding: 1.5rem 2rem;
   border: 1px solid red;
   box-shadow: 1rem 1rem 2rem 1rem #F1EEE9;
-  margin-top: 10px;
+  margin-top: 5px;
   margin-left: 40rem;
   
 }
@@ -65,13 +65,14 @@ label{
   align-self: flex-start;
   font-weight: 500;
   font-size: 1.4rem;
+
 }
 input{
   width: 80%;
   border-radius: 8px;
   border: 1px solid #cccc;
   height: 3rem;
-  padding: 0.5rem;
+  padding: 0.2rem;
   background-color: #f7f7f7;
 }
 input::-webkit-outer-spin-button,
