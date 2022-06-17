@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,900;1,700&family=Red+Hat+Display&display=swap');
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+html{
+    width: 100%;
+    font-size: 10px;
+}
+html, body{
+    padding: 0;
+    margin: 0;
+    min-height: 100vh;
+    max-width: 100vw;
+   }
+
+
+  .rightPage {
+    width: 60rem;
+    margin-left: 35rem;
+  }
+  inputhh{
+    width: 40%;
+    border-radius: 8px;
+    border: 1px solid #cccc;
+    height: 3rem;
+    padding: 0.5rem;
+  }
+
+
+  i{
+  padding-top: 3rem;
+
+    color: #db353a;
+
+  }
+
+  .icon {
+    font-size: 7rem;
+  }
+
+
+  .page {
+    
+    min-width: 40rem;
+    height: 40rem;
+    box-shadow: 5px 5px 5px 10px #F1EEE9;
+    border-radius: 1rem;
+      color: #666;
+    cursor: pointer;
+    text-align: center;
+    padding:1rem;
+    
+  left: 35%;
+  top: 20%;
+  position: absolute;
+
+
+  }
+
+  .change {
+
+  margin: 3rem 0;
+  font-size: 20px;
+  margin-bottom: 6rem;
+  }
+
+  .successBtn {
+      border-radius: 2rem;
+      border: none;
+      background-color: #db353a;
+      cursor: pointer;
+      padding: 1.5% 15%;
+      font-size: 20px;
+      color: #ffffff;
+      text-decoration: none;
+      font-family: 'Red Hat display', sans-serif;
+    }
