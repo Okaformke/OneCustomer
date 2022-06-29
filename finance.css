@@ -38,6 +38,7 @@ li{
     margin: 40px;
     /* border: solid 1px #f7f7f7; */
     background-color: #f7f7f7;
+    border: red solid 1px;
 }
 .f {
     color: red;
@@ -52,6 +53,11 @@ li{
  a{
     color:dimgrey;
     text-decoration: none;
+}
+.centered h1 {
+    position: absolute;
+    left: 35%;
+    top: 20%;
 }
 
 @media screen and(max-with: 800px){
