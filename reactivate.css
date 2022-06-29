@@ -30,6 +30,7 @@ body{
   background-position: top left;
   background-repeat: no-repeat;
   background-size: 18%;
+  text-align: center;
 }
 .container{
 background-color: #fff;
@@ -49,7 +50,7 @@ color: red;
 width: 60%;
 font-size: 20px;
 direction: right;
-margin-top: 1rem;
+margin-top: 4%;
 }
 form{
 height: 100%;
@@ -74,12 +75,13 @@ background-color: #f7f7f7;
   .form-wrapper{
   background-color: white;
   width: 50rem;
-  height: 90rem;
+  display: inline-block;
+  /* height: 90rem; */
   border-radius: 2rem;
   padding: 1.5rem 2rem;
   border: 1px solid red;
-  margin-top: 10px;
-  margin-left: 40rem;
+  margin-top: 3%;
+  /* margin-left: 40rem; */
   box-shadow: 1rem 1rem 2rem 1rem #F1EEE9;
   
   }
@@ -101,7 +103,7 @@ background-color: #f7f7f7;
   left: 0;
   top: 0;
   border: 1px solid lightgray;
-  margin-left: 0.2rem;
+  margin-left: -8em;
   }
   button{
   margin-bottom: 0.5;
@@ -151,7 +153,9 @@ margin-bottom: 1rem;
   color: black;
   margin-bottom: 1.5rem;
   }
-  
+  .sendo{
+    margin-left: -12%;
+  }
 
 
 

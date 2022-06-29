@@ -37,12 +37,12 @@ h3{
     width: 60%;
     font-size: 20px;
     direction: right;
-    margin-top: 1rem;
+    margin-top: 5%;
     }
 
   .rightPage {
-    width: 60rem;
-    margin-left: 35rem;   
+    width: 100%;
+    /* margin-left: 35rem;  */
   }
   inputhh{
     width: 80%;
@@ -53,14 +53,15 @@ h3{
   }
   
   .page {
-    margin: 0 8rem;
-    
-    height: 100%;
+    margin: 3% 0%;
+    width: 50rem;
+    display: inline-block;
+    /* height: 100%; */
     box-shadow: 1rem 1rem 2rem 1rem #F1EEE9;
-    border-radius: 1rem;
+    border-radius: 2rem;
       color: #666;
     cursor: pointer;
-    text-align: center;
+    /* text-align: center; */
     padding:3rem;
     border: 1px solid red;
     padding-bottom: 8rem;

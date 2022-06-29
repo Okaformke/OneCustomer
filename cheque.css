@@ -23,6 +23,7 @@ body{
     background-position: top left;
     background-repeat: no-repeat;
     background-size: 18%;
+    text-align: center;
 }
 .container{
   padding: 5px 20px 15px;
@@ -41,17 +42,18 @@ h3{
     width: 60%;
     font-size: 20px;
     direction: right;
-    margin-top: 5rem;
+    margin-top: 5%;
   }
 .form-wrapper{
   background-color: white;
+  display: inline-block;
   width: 50rem;
-  height: 70rem;
+  /* height: 70rem; */
   border-radius: 2rem;
   padding: 1.5rem 2rem;
   border: 1px solid red;
-  margin-top: 10px;
-  margin-left: 40rem;
+  margin-top: 3%;
+  /* margin-left: 40rem; */
   box-shadow: 1rem 1rem 2rem 1rem #F1EEE9;
 }
 form{
@@ -94,6 +96,7 @@ input::-webkit-inner-spin-button {
   position: relative;
   left: 0;
   top: 0;
+  margin-left: -10em;
   border: 1px solid lightgray;
 }
 button{
@@ -140,6 +143,9 @@ button:hover{
 }
 .sendo:hover {
   color: red;
+}
+.sendo{
+  margin-left: -12%;
 }
 
 

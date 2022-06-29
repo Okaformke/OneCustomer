@@ -37,12 +37,12 @@ h3{
     width: 60%;
     font-size: 20px;
     direction: right;
-    margin-top: 1rem;
+    margin-top: 5%;
     }
 
   .rightPage {
-    width: 60rem;
-    margin-left: 35rem;
+    width: 100%;
+    /* margin-left: 35rem; */
   }
   inputhh{
     width: 80%;
@@ -54,15 +54,17 @@ h3{
 
   .page {
 
-    margin: 0 8rem;
-    min-width: 22rem;
-    height: 43rem;
+    margin: 3% 0%;
+    width: 50rem;
+    display: inline-block;
+    /* height: 43rem; */
     box-shadow: 1rem 1rem 1rem 1rem #F1EEE9;
-    border-radius: 1rem;
+    border-radius: 2rem;
     color: #666;
     cursor: pointer;
     text-align: center;
-    padding:1rem;
+    border: 1px solid red;
+    padding: 3rem;
 
   }
 
@@ -122,12 +124,11 @@ h3{
   .flexOfficer {
     display: flex;
       background-color: #F7F7F7;
-
       padding: 0 1rem 0.5rem;
         border-radius: 0.5rem;
         width: 30rem;
         height: 4rem;
-        margin:1rem 2.5rem 0 5rem;
+        margin: 1rem 0rem 0rem 9rem;
       }
 
       .infoOff {
@@ -161,12 +162,11 @@ h3{
   .flex {
     display: flex;
       background-color: #F7F7F7;
-
       padding: 0 1rem 0.5rem;
         border-radius: 0.5rem;
         width: 30rem;
         height: 3rem;
-          margin:1rem 2.5rem 0 5rem;
+        margin: 1rem 0rem 0rem 9rem;
       }
 
   .info {
